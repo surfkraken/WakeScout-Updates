@@ -27,7 +27,7 @@
     .hero {
       max-width: 900px;
       margin: 0 auto;
-      padding: 70px 24px 45px;
+      padding: 70px 24px 30px;
       text-align: center;
     }
 
@@ -49,6 +49,32 @@
       color: #b9cad8;
     }
 
+    .install-note {
+      max-width: 780px;
+      margin: 10px auto 35px;
+      padding: 0 24px;
+    }
+
+    .install-note-inner {
+      background: #102a3d;
+      border: 1px solid #2f5872;
+      border-radius: 18px;
+      padding: 20px 22px;
+      text-align: center;
+    }
+
+    .install-note strong {
+      display: block;
+      font-size: 20px;
+      margin-bottom: 5px;
+      color: #ffffff;
+    }
+
+    .install-note p {
+      margin: 0;
+      color: #c7d8e3;
+    }
+
     .cards {
       max-width: 900px;
       margin: 0 auto;
@@ -59,10 +85,28 @@
     }
 
     .card {
+      position: relative;
       background: #102333;
       border: 1px solid #203d50;
       border-radius: 22px;
       padding: 28px;
+    }
+
+    .card.primary {
+      border: 2px solid #4d87a8;
+    }
+
+    .step-label {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: #1b3d52;
+      color: #d8edf8;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
     }
 
     .card h2 {
@@ -142,9 +186,22 @@
     </p>
   </section>
 
+  <section class="install-note">
+    <div class="install-note-inner">
+      <strong>📲 For the best experience, install both shortcuts.</strong>
+
+      <p>
+        WakeScout is the main shortcut. Lake Shootout is its companion tool for comparing
+        multiple lakes. Install WakeScout first, then Lake Shootout.
+      </p>
+    </div>
+  </section>
+
   <section class="cards">
 
-    <div class="card">
+    <div class="card primary">
+      <div class="step-label">Step 1</div>
+
       <h2>🌊 WakeScout</h2>
 
       <p>
@@ -154,7 +211,7 @@
 
       <a
         class="button"
-        href="https://www.icloud.com/shortcuts/2b183f1c0f324919933d03ea4259e6d4"
+        href="https://www.icloud.com/shortcuts/2978fa9802624c05983f38a8263e23a9"
       >
         Install WakeScout
       </a>
@@ -163,11 +220,13 @@
     </div>
 
     <div class="card">
+      <div class="step-label">Step 2</div>
+
       <h2>🏆 Lake Shootout</h2>
 
       <p>
-        Can't decide where to go? Pick multiple Utah lakes and Lake Shootout
-        compares them head-to-head to find the best wakesurfing conditions.
+        Lake Shootout is the companion to WakeScout. Pick multiple Utah lakes
+        and compare them head-to-head to find the best wakesurfing conditions.
       </p>
 
       <a
@@ -180,6 +239,16 @@
       <div class="version">Version 3.0</div>
     </div>
 
+  </section>
+
+  <section class="section">
+    <h2>Why install both?</h2>
+
+    <p>
+      WakeScout is designed to be your starting point. Use it when you already know
+      which lake you want to check. When you want to compare several lakes and let the
+      conditions decide where you should surf, WakeScout can launch Lake Shootout for you.
+    </p>
   </section>
 
   <section class="section">
