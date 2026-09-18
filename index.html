@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>WakeScout</title>
+
+  <meta
+    name="description"
+    content="WakeScout helps wakesurfers find the best 3-hour surf window using wind, gusts, rain, daylight, temperature, and drive time."
+  >
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #07131f;
+      color: #f5f8fb;
+      line-height: 1.6;
+    }
+
+    .hero {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 70px 24px 45px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 64px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(42px, 8vw, 72px);
+      line-height: 1;
+    }
+
+    .tagline {
+      max-width: 680px;
+      margin: 22px auto 0;
+      font-size: 21px;
+      color: #b9cad8;
+    }
+
+    .cards {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 10px 24px 60px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: #102333;
+      border: 1px solid #203d50;
+      border-radius: 22px;
+      padding: 28px;
+    }
+
+    .card h2 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 27px;
+    }
+
+    .card p {
+      color: #c2d1dc;
+      margin-bottom: 22px;
+    }
+
+    .button {
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      background: #ffffff;
+      color: #07131f;
+      padding: 14px 18px;
+      border-radius: 13px;
+      font-weight: 700;
+      font-size: 17px;
+    }
+
+    .version {
+      text-align: center;
+      margin-top: 12px;
+      font-size: 13px;
+      color: #7893a6;
+    }
+
+    .section {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 15px 24px 55px;
+    }
+
+    .section h2 {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    .section p,
+    .section li {
+      color: #bfd0dc;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 35px 20px 50px;
+      color: #6f899b;
+      font-size: 14px;
+    }
+
+    .kraken {
+      font-weight: 600;
+      color: #98afbf;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="logo">🌊</div>
+
+    <h1>WakeScout</h1>
+
+    <p class="tagline">
+      Stop guessing when the lake will be glass.
+      WakeScout analyzes the weather and finds the best 3-hour wakesurfing window for you.
+    </p>
+  </section>
+
+  <section class="cards">
+
+    <div class="card">
+      <h2>🌊 WakeScout</h2>
+
+      <p>
+        Pick a Utah lake and date. WakeScout analyzes wind, gusts, rain,
+        daylight, temperature, and drive time to find your best 3-hour surf window.
+      </p>
+
+      <a
+        class="button"
+        href="https://www.icloud.com/shortcuts/c932c63e5965476cbbe8b360a27533fd"
+      >
+        Install WakeScout
+      </a>
+
+      <div class="version">Version 3.0</div>
+    </div>
+
+    <div class="card">
+      <h2>🏆 Lake Shootout</h2>
+
+      <p>
+        Can't decide where to go? Pick multiple Utah lakes and Lake Shootout
+        compares them head-to-head to find the best wakesurfing conditions.
+      </p>
+
+      <a
+        class="button"
+        href="https://www.icloud.com/shortcuts/82d06b49fa3d4ee484ef65d55ad6bab2"
+      >
+        Install Lake Shootout
+      </a>
+
+      <div class="version">Version 3.0</div>
+    </div>
+
+  </section>
+
+  <section class="section">
+    <h2>What WakeScout looks at</h2>
+
+    <ul>
+      <li>Sustained wind</li>
+      <li>Wind gusts</li>
+      <li>Rain probability</li>
+      <li>Sunrise and sunset</li>
+      <li>Air temperature</li>
+      <li>Drive time</li>
+    </ul>
+
+    <p>
+      WakeScout evaluates every valid 3-hour daylight window and ranks the conditions
+      specifically for wakesurfing.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>What you need</h2>
+
+    <ul>
+      <li>An iPhone</li>
+      <li>Apple Shortcuts</li>
+      <li>The ChatGPT app</li>
+      <li>An internet connection</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Built-in updates</h2>
+
+    <p>
+      WakeScout and Lake Shootout automatically check for newer versions when they run.
+      If an update is available, you'll get a notification with the option to install it.
+    </p>
+  </section>
+
+  <footer>
+    Powered by 🌊 WakeScout<br>
+    Created by <span class="kraken">🐙 SurfKraken</span>
+  </footer>
+
+</body>
+</html>
