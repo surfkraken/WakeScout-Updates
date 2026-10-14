@@ -1,0 +1,181 @@
+lake,month,month_number,min_f,average_f,max_f,data_type,source_url,verification_status
+Bear Lake,January,1,32,36,41,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-bear-lake,published_table_transcribed_not_sensor_verified
+Bear Lake,February,2,32,39,45,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-bear-lake,published_table_transcribed_not_sensor_verified
+Bear Lake,March,3,37,43,50,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-bear-lake,published_table_transcribed_not_sensor_verified
+Bear Lake,April,4,39,48,57,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-bear-lake,published_table_transcribed_not_sensor_verified
+Bear Lake,May,5,48,55,63,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-bear-lake,published_table_transcribed_not_sensor_verified
+Bear Lake,June,6,57,64,72,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-bear-lake,published_table_transcribed_not_sensor_verified
+Bear Lake,July,7,63,72,82,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-bear-lake,published_table_transcribed_not_sensor_verified
+Bear Lake,August,8,68,75,84,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-bear-lake,published_table_transcribed_not_sensor_verified
+Bear Lake,September,9,63,71,79,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-bear-lake,published_table_transcribed_not_sensor_verified
+Bear Lake,October,10,46,57,68,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-bear-lake,published_table_transcribed_not_sensor_verified
+Bear Lake,November,11,37,46,55,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-bear-lake,published_table_transcribed_not_sensor_verified
+Bear Lake,December,12,32,35,39,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-bear-lake,published_table_transcribed_not_sensor_verified
+Flaming Gorge,January,1,32,35,39,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,published_table_transcribed_not_sensor_verified
+Flaming Gorge,February,2,34,40,46,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,published_table_transcribed_not_sensor_verified
+Flaming Gorge,March,3,36,44,54,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,published_table_transcribed_not_sensor_verified
+Flaming Gorge,April,4,39,47,55,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,published_table_transcribed_not_sensor_verified
+Flaming Gorge,May,5,48,55,63,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,published_table_transcribed_not_sensor_verified
+Flaming Gorge,June,6,54,63,72,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,published_table_transcribed_not_sensor_verified
+Flaming Gorge,July,7,64,76,86,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,published_table_transcribed_not_sensor_verified
+Flaming Gorge,August,8,64,72,81,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,published_table_transcribed_not_sensor_verified
+Flaming Gorge,September,9,61,68,75,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,published_table_transcribed_not_sensor_verified
+Flaming Gorge,October,10,48,55,61,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,published_table_transcribed_not_sensor_verified
+Flaming Gorge,November,11,37,44,48,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,published_table_transcribed_not_sensor_verified
+Flaming Gorge,December,12,32,36,41,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,published_table_transcribed_not_sensor_verified
+Pineview,January,1,32,37,43,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,published_table_transcribed_not_sensor_verified
+Pineview,February,2,36,40,45,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,published_table_transcribed_not_sensor_verified
+Pineview,March,3,39,48,57,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,published_table_transcribed_not_sensor_verified
+Pineview,April,4,41,49,57,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,published_table_transcribed_not_sensor_verified
+Pineview,May,5,46,57,68,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,published_table_transcribed_not_sensor_verified
+Pineview,June,6,59,69,79,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,published_table_transcribed_not_sensor_verified
+Pineview,July,7,68,75,82,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,published_table_transcribed_not_sensor_verified
+Pineview,August,8,68,75,84,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,published_table_transcribed_not_sensor_verified
+Pineview,September,9,63,71,79,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,published_table_transcribed_not_sensor_verified
+Pineview,October,10,46,56,66,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,published_table_transcribed_not_sensor_verified
+Pineview,November,11,37,46,54,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,published_table_transcribed_not_sensor_verified
+Pineview,December,12,32,37,43,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,published_table_transcribed_not_sensor_verified
+Willard Bay,January,1,32,37,43,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,published_table_transcribed_not_sensor_verified
+Willard Bay,February,2,36,40,45,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,published_table_transcribed_not_sensor_verified
+Willard Bay,March,3,39,49,59,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,published_table_transcribed_not_sensor_verified
+Willard Bay,April,4,41,50,59,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,published_table_transcribed_not_sensor_verified
+Willard Bay,May,5,46,58,70,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,published_table_transcribed_not_sensor_verified
+Willard Bay,June,6,59,69,79,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,published_table_transcribed_not_sensor_verified
+Willard Bay,July,7,68,75,84,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,published_table_transcribed_not_sensor_verified
+Willard Bay,August,8,68,76,86,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,published_table_transcribed_not_sensor_verified
+Willard Bay,September,9,63,71,81,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,published_table_transcribed_not_sensor_verified
+Willard Bay,October,10,46,56,66,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,published_table_transcribed_not_sensor_verified
+Willard Bay,November,11,37,46,54,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,published_table_transcribed_not_sensor_verified
+Willard Bay,December,12,32,39,46,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,published_table_transcribed_not_sensor_verified
+Jordanelle,January,1,32,36,41,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,published_table_transcribed_not_sensor_verified
+Jordanelle,February,2,34,39,43,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,published_table_transcribed_not_sensor_verified
+Jordanelle,March,3,34,42,52,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,published_table_transcribed_not_sensor_verified
+Jordanelle,April,4,32,42,52,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,published_table_transcribed_not_sensor_verified
+Jordanelle,May,5,41,53,66,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,published_table_transcribed_not_sensor_verified
+Jordanelle,June,6,55,63,70,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,published_table_transcribed_not_sensor_verified
+Jordanelle,July,7,64,71,79,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,published_table_transcribed_not_sensor_verified
+Jordanelle,August,8,66,73,81,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,published_table_transcribed_not_sensor_verified
+Jordanelle,September,9,59,67,75,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,published_table_transcribed_not_sensor_verified
+Jordanelle,October,10,46,55,63,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,published_table_transcribed_not_sensor_verified
+Jordanelle,November,11,37,45,52,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,published_table_transcribed_not_sensor_verified
+Jordanelle,December,12,34,38,43,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,published_table_transcribed_not_sensor_verified
+Deer Creek,January,1,32,36,41,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,published_table_transcribed_not_sensor_verified
+Deer Creek,February,2,34,39,45,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,published_table_transcribed_not_sensor_verified
+Deer Creek,March,3,37,46,55,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,published_table_transcribed_not_sensor_verified
+Deer Creek,April,4,41,47,55,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,published_table_transcribed_not_sensor_verified
+Deer Creek,May,5,48,58,68,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,published_table_transcribed_not_sensor_verified
+Deer Creek,June,6,59,65,72,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,published_table_transcribed_not_sensor_verified
+Deer Creek,July,7,68,74,81,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,published_table_transcribed_not_sensor_verified
+Deer Creek,August,8,68,74,82,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,published_table_transcribed_not_sensor_verified
+Deer Creek,September,9,61,68,75,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,published_table_transcribed_not_sensor_verified
+Deer Creek,October,10,46,54,61,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,published_table_transcribed_not_sensor_verified
+Deer Creek,November,11,37,45,52,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,published_table_transcribed_not_sensor_verified
+Deer Creek,December,12,32,37,43,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,published_table_transcribed_not_sensor_verified
+Utah Lake,January,1,32,36,41,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-utah-lake,published_table_transcribed_not_sensor_verified
+Utah Lake,February,2,34,39,45,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-utah-lake,published_table_transcribed_not_sensor_verified
+Utah Lake,March,3,37,48,59,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-utah-lake,published_table_transcribed_not_sensor_verified
+Utah Lake,April,4,43,50,57,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-utah-lake,published_table_transcribed_not_sensor_verified
+Utah Lake,May,5,48,58,68,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-utah-lake,published_table_transcribed_not_sensor_verified
+Utah Lake,June,6,59,66,75,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-utah-lake,published_table_transcribed_not_sensor_verified
+Utah Lake,July,7,68,76,86,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-utah-lake,published_table_transcribed_not_sensor_verified
+Utah Lake,August,8,68,76,86,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-utah-lake,published_table_transcribed_not_sensor_verified
+Utah Lake,September,9,63,70,79,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-utah-lake,published_table_transcribed_not_sensor_verified
+Utah Lake,October,10,46,55,63,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-utah-lake,published_table_transcribed_not_sensor_verified
+Utah Lake,November,11,37,46,54,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-utah-lake,published_table_transcribed_not_sensor_verified
+Utah Lake,December,12,32,37,43,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-utah-lake,published_table_transcribed_not_sensor_verified
+Strawberry,January,1,32,36,41,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,published_table_transcribed_not_sensor_verified
+Strawberry,February,2,32,38,45,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,published_table_transcribed_not_sensor_verified
+Strawberry,March,3,32,41,48,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,published_table_transcribed_not_sensor_verified
+Strawberry,April,4,39,46,54,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,published_table_transcribed_not_sensor_verified
+Strawberry,May,5,45,53,63,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,published_table_transcribed_not_sensor_verified
+Strawberry,June,6,54,62,70,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,published_table_transcribed_not_sensor_verified
+Strawberry,July,7,63,70,77,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,published_table_transcribed_not_sensor_verified
+Strawberry,August,8,68,72,77,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,published_table_transcribed_not_sensor_verified
+Strawberry,September,9,59,65,72,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,published_table_transcribed_not_sensor_verified
+Strawberry,October,10,46,53,59,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,published_table_transcribed_not_sensor_verified
+Strawberry,November,11,32,43,52,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,published_table_transcribed_not_sensor_verified
+Strawberry,December,12,32,35,39,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,published_table_transcribed_not_sensor_verified
+Echo,January,1,32,36,41,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,published_table_transcribed_not_sensor_verified
+Echo,February,2,34,39,43,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,published_table_transcribed_not_sensor_verified
+Echo,March,3,34,43,54,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,published_table_transcribed_not_sensor_verified
+Echo,April,4,32,44,55,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,published_table_transcribed_not_sensor_verified
+Echo,May,5,41,54,68,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,published_table_transcribed_not_sensor_verified
+Echo,June,6,55,64,73,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,published_table_transcribed_not_sensor_verified
+Echo,July,7,64,72,81,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,published_table_transcribed_not_sensor_verified
+Echo,August,8,66,74,82,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,published_table_transcribed_not_sensor_verified
+Echo,September,9,59,67,77,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,published_table_transcribed_not_sensor_verified
+Echo,October,10,46,55,64,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,published_table_transcribed_not_sensor_verified
+Echo,November,11,39,46,54,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,published_table_transcribed_not_sensor_verified
+Echo,December,12,34,38,43,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,published_table_transcribed_not_sensor_verified
+Rockport,January,1,32,36,41,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-rockport-lake,published_table_transcribed_not_sensor_verified
+Rockport,February,2,34,39,43,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-rockport-lake,published_table_transcribed_not_sensor_verified
+Rockport,March,3,34,43,54,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-rockport-lake,published_table_transcribed_not_sensor_verified
+Rockport,April,4,32,44,55,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-rockport-lake,published_table_transcribed_not_sensor_verified
+Rockport,May,5,41,53,66,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-rockport-lake,published_table_transcribed_not_sensor_verified
+Rockport,June,6,55,63,70,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-rockport-lake,published_table_transcribed_not_sensor_verified
+Rockport,July,7,64,71,79,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-rockport-lake,published_table_transcribed_not_sensor_verified
+Rockport,August,8,66,73,81,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-rockport-lake,published_table_transcribed_not_sensor_verified
+Rockport,September,9,59,67,75,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-rockport-lake,published_table_transcribed_not_sensor_verified
+Rockport,October,10,46,55,63,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-rockport-lake,published_table_transcribed_not_sensor_verified
+Rockport,November,11,37,45,52,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-rockport-lake,published_table_transcribed_not_sensor_verified
+Rockport,December,12,34,38,43,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-rockport-lake,published_table_transcribed_not_sensor_verified
+Scofield,January,1,32,35,39,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,published_table_transcribed_not_sensor_verified
+Scofield,February,2,32,39,46,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,published_table_transcribed_not_sensor_verified
+Scofield,March,3,32,41,52,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,published_table_transcribed_not_sensor_verified
+Scofield,April,4,37,43,50,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,published_table_transcribed_not_sensor_verified
+Scofield,May,5,45,53,63,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,published_table_transcribed_not_sensor_verified
+Scofield,June,6,54,63,72,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,published_table_transcribed_not_sensor_verified
+Scofield,July,7,63,75,86,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,published_table_transcribed_not_sensor_verified
+Scofield,August,8,64,71,79,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,published_table_transcribed_not_sensor_verified
+Scofield,September,9,61,68,75,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,published_table_transcribed_not_sensor_verified
+Scofield,October,10,52,57,61,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,published_table_transcribed_not_sensor_verified
+Scofield,November,11,32,44,54,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,published_table_transcribed_not_sensor_verified
+Scofield,December,12,32,33,37,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,published_table_transcribed_not_sensor_verified
+Starvation,January,1,32,35,39,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,published_table_transcribed_not_sensor_verified
+Starvation,February,2,32,39,46,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,published_table_transcribed_not_sensor_verified
+Starvation,March,3,34,43,54,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,published_table_transcribed_not_sensor_verified
+Starvation,April,4,39,47,55,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,published_table_transcribed_not_sensor_verified
+Starvation,May,5,45,55,66,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,published_table_transcribed_not_sensor_verified
+Starvation,June,6,57,65,73,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,published_table_transcribed_not_sensor_verified
+Starvation,July,7,66,77,86,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,published_table_transcribed_not_sensor_verified
+Starvation,August,8,64,74,84,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,published_table_transcribed_not_sensor_verified
+Starvation,September,9,61,68,75,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,published_table_transcribed_not_sensor_verified
+Starvation,October,10,52,57,61,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,published_table_transcribed_not_sensor_verified
+Starvation,November,11,39,46,52,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,published_table_transcribed_not_sensor_verified
+Starvation,December,12,32,36,41,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,published_table_transcribed_not_sensor_verified
+Sand Hollow,January,1,39,44,50,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,published_table_transcribed_not_sensor_verified
+Sand Hollow,February,2,41,46,52,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,published_table_transcribed_not_sensor_verified
+Sand Hollow,March,3,46,57,68,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,published_table_transcribed_not_sensor_verified
+Sand Hollow,April,4,50,59,68,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,published_table_transcribed_not_sensor_verified
+Sand Hollow,May,5,59,68,79,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,published_table_transcribed_not_sensor_verified
+Sand Hollow,June,6,68,76,84,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,published_table_transcribed_not_sensor_verified
+Sand Hollow,July,7,75,82,90,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,published_table_transcribed_not_sensor_verified
+Sand Hollow,August,8,75,83,93,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,published_table_transcribed_not_sensor_verified
+Sand Hollow,September,9,68,78,88,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,published_table_transcribed_not_sensor_verified
+Sand Hollow,October,10,61,67,73,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,published_table_transcribed_not_sensor_verified
+Sand Hollow,November,11,52,58,64,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,published_table_transcribed_not_sensor_verified
+Sand Hollow,December,12,43,47,54,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,published_table_transcribed_not_sensor_verified
+Quail Creek,January,1,39,44,50,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,published_table_transcribed_not_sensor_verified
+Quail Creek,February,2,41,46,52,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,published_table_transcribed_not_sensor_verified
+Quail Creek,March,3,46,57,68,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,published_table_transcribed_not_sensor_verified
+Quail Creek,April,4,50,59,68,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,published_table_transcribed_not_sensor_verified
+Quail Creek,May,5,59,69,79,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,published_table_transcribed_not_sensor_verified
+Quail Creek,June,6,68,76,84,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,published_table_transcribed_not_sensor_verified
+Quail Creek,July,7,75,82,90,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,published_table_transcribed_not_sensor_verified
+Quail Creek,August,8,75,83,93,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,published_table_transcribed_not_sensor_verified
+Quail Creek,September,9,68,78,88,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,published_table_transcribed_not_sensor_verified
+Quail Creek,October,10,61,67,73,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,published_table_transcribed_not_sensor_verified
+Quail Creek,November,11,52,58,64,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,published_table_transcribed_not_sensor_verified
+Quail Creek,December,12,43,47,54,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,published_table_transcribed_not_sensor_verified
+Lake Powell,January,1,37,43,48,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-lake-powell,published_table_transcribed_not_sensor_verified
+Lake Powell,February,2,37,44,50,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-lake-powell,published_table_transcribed_not_sensor_verified
+Lake Powell,March,3,43,50,57,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-lake-powell,published_table_transcribed_not_sensor_verified
+Lake Powell,April,4,52,57,63,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-lake-powell,published_table_transcribed_not_sensor_verified
+Lake Powell,May,5,59,64,68,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-lake-powell,published_table_transcribed_not_sensor_verified
+Lake Powell,June,6,66,72,77,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-lake-powell,published_table_transcribed_not_sensor_verified
+Lake Powell,July,7,75,79,84,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-lake-powell,published_table_transcribed_not_sensor_verified
+Lake Powell,August,8,75,79,84,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-lake-powell,published_table_transcribed_not_sensor_verified
+Lake Powell,September,9,68,73,77,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-lake-powell,published_table_transcribed_not_sensor_verified
+Lake Powell,October,10,55,63,70,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-lake-powell,published_table_transcribed_not_sensor_verified
+Lake Powell,November,11,46,54,61,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-lake-powell,published_table_transcribed_not_sensor_verified
+Lake Powell,December,12,43,48,52,third_party_modeled_seasonal_range,https://seatemperature.net/lakes/water-temp-in-lake-powell,published_table_transcribed_not_sensor_verified
