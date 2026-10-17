@@ -70,7 +70,7 @@ The goal is to identify the window most likely to produce the **best surfable wa
 
 ## 🌡 Water Temperature
 
-WakeScout also provides an estimated seasonal water temperature for supported lakes.
+WakeScout also provides an estimated water temperature for supported lakes.
 
 These temperatures are **not live sensor readings**.
 
