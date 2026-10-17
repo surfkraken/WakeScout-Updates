@@ -1,1 +1,6 @@
-{"version":"4","notes":"Test things ","url":"ReleaseBuild","build":"400"}
+{
+  "version": "4",
+  "build": 400,
+  "url": "https://www.icloud.com/shortcuts/4bbfe10a407e4d54a581c3478caf104c",
+  "notes": "🌡 Water temperatures are now included in WakeScout lake reports.\n🧭 New Information & Contact menu.\n🔧 Navigation and usability improvements."
+}
