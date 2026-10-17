@@ -4,296 +4,1062 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>WakeScout</title>
+  <title>WakeScout | Find Better Water</title>
 
   <meta
     name="description"
-    content="WakeScout helps wakesurfers find the best 3-hour surf window using wind, gusts, rain, daylight, temperature, and drive time."
+    content="WakeScout analyzes wind, gusts, rain, daylight, and estimated water temperature to help wake surfers find the best 3-hour surf window at Utah lakes."
   >
 
+  <meta name="theme-color" content="#07131f">
+
   <style>
+    :root {
+      --bg: #07131f;
+      --panel: #0d2030;
+      --panel-soft: #102a3d;
+      --border: #203f54;
+      --border-bright: #3f7c9e;
+      --text: #f5f8fb;
+      --muted: #b8cad7;
+      --dim: #7691a4;
+      --accent: #73c8ef;
+      --accent-soft: #163d54;
+      --button-text: #07131f;
+      --max: 1080px;
+    }
+
     * {
       box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #07131f;
-      color: #f5f8fb;
+      background:
+        radial-gradient(circle at top, #0d2c42 0%, #07131f 42%, #050d15 100%);
+      color: var(--text);
       line-height: 1.6;
     }
 
-    .hero {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 70px 24px 30px;
-      text-align: center;
+    a {
+      color: inherit;
     }
 
-    .logo {
-      font-size: 64px;
-      margin-bottom: 10px;
+    .wrap {
+      width: min(var(--max), calc(100% - 36px));
+      margin: 0 auto;
+    }
+
+    .hero {
+      min-height: 78vh;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      padding: 64px 0 44px;
+    }
+
+    .hero-inner {
+      width: 100%;
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    .wave {
+      font-size: clamp(58px, 15vw, 94px);
+      line-height: 1;
+      margin-bottom: 14px;
+      filter: drop-shadow(0 10px 30px rgba(74, 174, 220, 0.2));
     }
 
     h1 {
       margin: 0;
-      font-size: clamp(42px, 8vw, 72px);
-      line-height: 1;
+      font-size: clamp(48px, 13vw, 86px);
+      line-height: 0.96;
+      letter-spacing: -0.045em;
     }
 
-    .tagline {
-      max-width: 680px;
-      margin: 22px auto 0;
-      font-size: 21px;
-      color: #b9cad8;
-    }
-
-    .install-note {
-      max-width: 780px;
-      margin: 10px auto 35px;
-      padding: 0 24px;
-    }
-
-    .install-note-inner {
-      background: #102a3d;
-      border: 1px solid #2f5872;
-      border-radius: 18px;
-      padding: 20px 22px;
-      text-align: center;
-    }
-
-    .install-note strong {
-      display: block;
-      font-size: 20px;
-      margin-bottom: 5px;
-      color: #ffffff;
-    }
-
-    .install-note p {
-      margin: 0;
-      color: #c7d8e3;
-    }
-
-    .cards {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 10px 24px 60px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 22px;
-    }
-
-    .card {
-      position: relative;
-      background: #102333;
-      border: 1px solid #203d50;
-      border-radius: 22px;
-      padding: 28px;
-    }
-
-    .card.primary {
-      border: 2px solid #4d87a8;
-    }
-
-    .step-label {
-      display: inline-block;
-      margin-bottom: 14px;
-      padding: 5px 10px;
-      border-radius: 999px;
-      background: #1b3d52;
-      color: #d8edf8;
-      font-size: 13px;
+    .hero-kicker {
+      margin: 20px auto 0;
+      font-size: clamp(21px, 5vw, 30px);
       font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
+      color: var(--accent);
     }
 
-    .card h2 {
-      margin-top: 0;
-      margin-bottom: 8px;
-      font-size: 27px;
+    .hero-copy {
+      max-width: 720px;
+      margin: 18px auto 0;
+      color: var(--muted);
+      font-size: clamp(17px, 4.5vw, 21px);
     }
 
-    .card p {
-      color: #c2d1dc;
-      margin-bottom: 22px;
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 30px;
     }
 
     .button {
-      display: block;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 52px;
+      padding: 14px 22px;
+      border-radius: 14px;
       text-decoration: none;
-      text-align: center;
-      background: #ffffff;
-      color: #07131f;
-      padding: 14px 18px;
-      border-radius: 13px;
-      font-weight: 700;
-      font-size: 17px;
+      font-weight: 800;
+      font-size: 16px;
+      transition: transform 0.15s ease, opacity 0.15s ease;
     }
 
-    .version {
-      text-align: center;
-      margin-top: 12px;
+    .button:active {
+      transform: scale(0.98);
+    }
+
+    .button-primary {
+      background: #ffffff;
+      color: var(--button-text);
+    }
+
+    .button-secondary {
+      background: var(--accent-soft);
+      border: 1px solid var(--border-bright);
+      color: #dff5ff;
+    }
+
+    .micro {
+      margin-top: 14px;
       font-size: 13px;
-      color: #7893a6;
+      color: var(--dim);
     }
 
     .section {
-      max-width: 850px;
+      padding: 38px 0 70px;
+    }
+
+    .section-heading {
+      max-width: 760px;
+      margin: 0 auto 28px;
+      text-align: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 8px;
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(30px, 8vw, 48px);
+      line-height: 1.1;
+      letter-spacing: -0.025em;
+    }
+
+    .section-heading p {
+      margin: 14px auto 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+      background: rgba(14, 34, 50, 0.92);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 26px;
+    }
+
+    .card-icon {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 22px;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .window-example {
+      max-width: 720px;
+      margin: 26px auto 0;
+      background: #081722;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .window-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 13px 18px;
+      border-bottom: 1px solid #173244;
+      color: var(--muted);
+    }
+
+    .window-row:last-child {
+      border-bottom: 0;
+    }
+
+    .window-row strong {
+      color: var(--text);
+    }
+
+    .ranking {
+      max-width: 720px;
+      margin: 20px auto 0;
+      padding: 22px;
+      background: var(--panel-soft);
+      border: 1px solid var(--border-bright);
+      border-radius: 20px;
+    }
+
+    .ranking-title {
+      margin-bottom: 12px;
+      font-weight: 800;
+    }
+
+    .rank-list {
+      margin: 0;
+      padding-left: 24px;
+      color: var(--muted);
+    }
+
+    .rank-list li {
+      padding: 4px 0;
+    }
+
+    .quote {
+      margin: 18px 0;
+      padding: 17px 18px;
+      border-left: 4px solid var(--accent);
+      background: #0a1a27;
+      border-radius: 0 14px 14px 0;
+      color: #dceaf3;
+    }
+
+    .requirements {
+      max-width: 800px;
       margin: 0 auto;
-      padding: 15px 24px 55px;
+      background: linear-gradient(145deg, #11334a, #0b2131);
+      border: 1px solid var(--border-bright);
+      border-radius: 24px;
+      padding: 28px;
     }
 
-    .section h2 {
-      font-size: 30px;
-      margin-bottom: 15px;
-    }
-
-    .section p,
-    .section li {
-      color: #bfd0dc;
-    }
-
-    ul {
+    .requirements ul {
+      margin: 16px 0 0;
       padding-left: 22px;
+      color: var(--muted);
+    }
+
+    .requirements li {
+      margin: 8px 0;
+    }
+
+    .install-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .install-card {
+      display: flex;
+      flex-direction: column;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 28px;
+    }
+
+    .install-card.primary {
+      border: 2px solid var(--border-bright);
+    }
+
+    .install-card h3 {
+      margin: 0 0 8px;
+      font-size: 26px;
+    }
+
+    .install-card p {
+      flex: 1;
+      margin: 0 0 22px;
+      color: var(--muted);
+    }
+
+    .state-callout {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 34px 28px;
+      text-align: center;
+      background:
+        linear-gradient(145deg, rgba(27, 78, 105, 0.55), rgba(11, 31, 46, 0.95));
+      border: 1px solid var(--border-bright);
+      border-radius: 26px;
+    }
+
+    .state-callout p {
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .state-list {
+      margin: 20px auto 0;
+      max-width: 520px;
+      text-align: left;
+      color: var(--muted);
     }
 
     footer {
+      padding: 38px 20px 54px;
       text-align: center;
-      padding: 35px 20px 50px;
-      color: #6f899b;
+      color: var(--dim);
       font-size: 14px;
     }
 
+    footer a {
+      color: #9edbf4;
+      text-decoration: none;
+    }
+
     .kraken {
-      font-weight: 600;
-      color: #98afbf;
+      color: #a9bfcd;
+      font-weight: 700;
+    }
+
+    @media (max-width: 760px) {
+      .hero {
+        min-height: auto;
+        padding-top: 50px;
+      }
+
+      .hero-actions {
+        flex-direction: column;
+      }
+
+      .button {
+        width: 100%;
+      }
+
+      .grid-3,
+      .grid-2,
+      .install-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .section {
+        padding: 30px 0 54px;
+      }
+
+      .card,
+      .install-card,
+      .requirements {
+        padding: 22px;
+      }
+
+      .window-row {
+        grid-template-columns: 1fr;
+        gap: 3px;
+      }
     }
   </style>
 </head>
 
 <body>
 
-  <section class="hero">
-    <div class="logo">🌊</div>
+  <header class="hero">
+    <div class="wrap hero-inner">
 
-    <h1>WakeScout</h1>
+      <div class="wave">🌊</div>
 
-    <p class="tagline">
-      Stop guessing when the lake will be glass.
-      WakeScout analyzes the weather and finds the best 3-hour wakesurfing window for you.
-    </p>
-  </section>
+      <h1>WakeScout</h1>
 
-  <section class="install-note">
-    <div class="install-note-inner">
-      <strong>📲 For the best experience, install both shortcuts.</strong>
+      <div class="hero-kicker">
+        Find better water before you burn the gas.
+      </div>
 
-      <p>
-        WakeScout is the main shortcut. Lake Shootout is its companion tool for comparing
-        multiple lakes. Install WakeScout first, then Lake Shootout.
+      <p class="hero-copy">
+        Pick a Utah lake and a day. WakeScout analyzes the forecast,
+        compares every usable 3-hour daylight window, and finds the
+        best time to wake surf.
       </p>
+
+      <div class="hero-actions">
+
+        <a
+          id="hero-install"
+          class="button button-primary"
+          href="#"
+        >
+          Install WakeScout
+        </a>
+
+        <a
+          class="button button-secondary"
+          href="#how-it-works"
+        >
+          See How It Works
+        </a>
+
+      </div>
+
+      <div class="micro">
+        Built for iOS 27 • Requires Apple Cloud Pro
+      </div>
+
+    </div>
+  </header>
+
+
+  <section class="section">
+    <div class="wrap">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">
+          Built for wake surfers
+        </span>
+
+        <h2>
+          Stop staring at weather apps.
+        </h2>
+
+        <p>
+          WakeScout turns a pile of forecast data into one useful question:
+          when is the water most likely to be good?
+        </p>
+
+      </div>
+
+      <div class="grid grid-3">
+
+        <div class="card">
+
+          <div class="card-icon">
+            🌬
+          </div>
+
+          <h3>
+            Wind that matters
+          </h3>
+
+          <p>
+            WakeScout looks beyond a single wind number and compares average wind,
+            maximum wind, and gusts.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <div class="card-icon">
+            🌦
+          </div>
+
+          <h3>
+            Real surf windows
+          </h3>
+
+          <p>
+            Rain and daylight are part of the equation, because calm water at
+            midnight isn't particularly useful.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <div class="card-icon">
+            🌡
+          </div>
+
+          <h3>
+            Water temperature
+          </h3>
+
+          <p>
+            Lake-specific seasonal temperature estimates give you a better idea
+            of what you're climbing into.
+          </p>
+
+        </div>
+
+      </div>
+
     </div>
   </section>
 
-  <section class="cards">
 
-    <div class="card primary">
-      <div class="step-label">Step 1</div>
+  <section
+    id="how-it-works"
+    class="section"
+  >
+    <div class="wrap">
 
-      <h2>🌊 WakeScout</h2>
+      <div class="section-heading">
 
-      <p>
-        Pick a Utah lake and date. WakeScout analyzes wind, gusts, rain,
-        daylight, temperature, and drive time to find your best 3-hour surf window.
-      </p>
+        <span class="eyebrow">
+          Under the hood
+        </span>
 
-      <a
-        class="button"
-        href="https://www.icloud.com/shortcuts/2978fa9802624c05983f38a8263e23a9"
+        <h2>
+          How WakeScout thinks
+        </h2>
+
+        <p>
+          It doesn't just find the lowest hourly wind.
+          WakeScout evaluates every valid 3-hour daylight window,
+          moving forward one hour at a time.
+        </p>
+
+      </div>
+
+      <div class="window-example">
+
+        <div class="window-row">
+          <strong>6:00–9:00 AM</strong>
+          <span>Evaluate conditions</span>
+        </div>
+
+        <div class="window-row">
+          <strong>7:00–10:00 AM</strong>
+          <span>Evaluate conditions</span>
+        </div>
+
+        <div class="window-row">
+          <strong>8:00–11:00 AM</strong>
+          <span>Evaluate conditions</span>
+        </div>
+
+        <div class="window-row">
+          <strong>9:00 AM–12:00 PM</strong>
+          <span>Keep going through daylight</span>
+        </div>
+
+      </div>
+
+      <div class="ranking">
+
+        <div class="ranking-title">
+          Each window is ranked in this order:
+        </div>
+
+        <ol class="rank-list">
+          <li>Rain</li>
+          <li>Average wind</li>
+          <li>Maximum wind</li>
+          <li>Maximum gust</li>
+        </ol>
+
+        <p style="margin-bottom:0;color:#b8cad7;">
+          If two windows are effectively tied, the earlier window wins.
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="wrap">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">
+          The glass problem
+        </span>
+
+        <h2>
+          “5 mph wind” doesn't tell the whole story.
+        </h2>
+
+      </div>
+
+      <div class="grid grid-2">
+
+        <div class="card">
+
+          <h3>
+            Average isn't everything
+          </h3>
+
+          <p>
+            A three-hour window with calm average wind but repeated hard gusts
+            can produce worse water than slightly stronger but steadier wind.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>
+            Best available water
+          </h3>
+
+          <p>
+            WakeScout isn't promising perfect weather. It's trying to identify
+            the best surfable conditions available that day.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="wrap">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">
+          Water temperature
+        </span>
+
+        <h2>
+          Useful estimate. No fake precision.
+        </h2>
+
+      </div>
+
+      <div
+        class="card"
+        style="max-width:820px;margin:0 auto;"
       >
-        Install WakeScout
-      </a>
 
-      <div class="version">Version 3.0</div>
+        <p>
+          WakeScout provides estimated water temperatures using lake-specific
+          monthly baselines built from historical observations, seasonal patterns,
+          available lake data, and climatological estimates where direct
+          measurements are limited.
+        </p>
+
+        <div class="quote">
+          “About what should the water feel like this time of year?”
+        </div>
+
+        <p>
+          These are not live buoy readings. Actual water temperature can change
+          with weather, depth, inflow, elevation, turnover, and where you are on
+          the lake.
+        </p>
+
+        <p style="margin-bottom:0;">
+          WakeScout calls them estimates because that is exactly what they are.
+        </p>
+
+      </div>
+
     </div>
+  </section>
 
-    <div class="card">
-      <div class="step-label">Step 2</div>
 
-      <h2>🏆 Lake Shootout</h2>
+  <section class="section">
+    <div class="wrap">
 
-      <p>
-        Lake Shootout is the companion to WakeScout. Pick multiple Utah lakes
-        and compare them head-to-head to find the best wakesurfing conditions.
-      </p>
+      <div class="section-heading">
 
-      <a
-        class="button"
-        href="https://www.icloud.com/shortcuts/82d06b49fa3d4ee484ef65d55ad6bab2"
+        <span class="eyebrow">
+          Companion shortcut
+        </span>
+
+        <h2>
+          🏆 Lake Shootout
+        </h2>
+
+        <p>
+          Sometimes the question isn't when to go.
+          It's which lake deserves the boat today.
+        </p>
+
+      </div>
+
+      <div
+        class="card"
+        style="max-width:820px;margin:0 auto;"
       >
-        Install Lake Shootout
-      </a>
 
-      <div class="version">Version 3.0</div>
+        <p>
+          Lake Shootout compares multiple Utah lakes using the same WakeScout
+          weather logic and lets the conditions decide where you should surf.
+        </p>
+
+        <p style="margin-bottom:0;">
+          WakeScout checks one lake deeply. Lake Shootout puts several lakes
+          head-to-head.
+        </p>
+
+      </div>
+
     </div>
-
   </section>
+
 
   <section class="section">
-    <h2>Why install both?</h2>
+    <div class="wrap">
 
-    <p>
-      WakeScout is designed to be your starting point. Use it when you already know
-      which lake you want to check. When you want to compare several lakes and let the
-      conditions decide where you should surf, WakeScout can launch Lake Shootout for you.
-    </p>
+      <div class="section-heading">
+
+        <span class="eyebrow">
+          The philosophy
+        </span>
+
+        <h2>
+          Useful beats complicated.
+        </h2>
+
+      </div>
+
+      <div class="grid grid-2">
+
+        <div class="card">
+
+          <h3>
+            What WakeScout does
+          </h3>
+
+          <p>
+            Uses understandable inputs, compares them consistently,
+            avoids fake precision, and turns the result into something useful
+            on the dock.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>
+            What WakeScout doesn't do
+          </h3>
+
+          <p>
+            Pretend it can overpower mountains, canyon winds, thunderstorms,
+            shoreline geography, boat traffic, or Mother Nature.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
   </section>
+
 
   <section class="section">
-    <h2>What WakeScout looks at</h2>
+    <div class="wrap">
 
-    <ul>
-      <li>Sustained wind</li>
-      <li>Wind gusts</li>
-      <li>Rain probability</li>
-      <li>Sunrise and sunset</li>
-      <li>Air temperature</li>
-      <li>Drive time</li>
-    </ul>
+      <div class="requirements">
 
-    <p>
-      WakeScout evaluates every valid 3-hour daylight window and ranks the conditions
-      specifically for wakesurfing.
-    </p>
+        <span class="eyebrow">
+          Before you install
+        </span>
+
+        <h2>
+          What you need
+        </h2>
+
+        <ul>
+          <li>
+            An iPhone running <strong>iOS 27 or newer</strong>
+          </li>
+
+          <li>
+            Apple Shortcuts
+          </li>
+
+          <li>
+            Access to Apple's <strong>Cloud Pro</strong> model
+          </li>
+
+          <li>
+            An internet connection for weather, updates, and temperature data
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
   </section>
+
 
   <section class="section">
-    <h2>What you need</h2>
+    <div class="wrap">
 
-    <ul>
-      <li>An iPhone</li>
-      <li>Apple Shortcuts</li>
-      <li>Apple Cloud Pro or ChatGPT</li>
-      <li>iOS 27+</li>
-    </ul>
+      <div class="state-callout">
+
+        <span class="eyebrow">
+          Built in Utah
+        </span>
+
+        <h2>
+          Want WakeScout in your state?
+        </h2>
+
+        <p>
+          Utah is home base, but Utah doesn't own all the good water.
+        </p>
+
+        <p>
+          If you'd like WakeScout expanded to another state,
+          tell me where you surf.
+        </p>
+
+        <div class="state-list">
+
+          <ul>
+            <li>Your state</li>
+            <li>The lakes you regularly surf</li>
+            <li>Any major local lakes that absolutely belong on the list</li>
+          </ul>
+
+        </div>
+
+        <p>
+          Use the <strong>Information & Contact</strong> section inside WakeScout.
+          If enough surfers from an area raise their hands, that's a pretty good
+          map of where WakeScout should explore next.
+        </p>
+
+      </div>
+
+    </div>
   </section>
+
+
+  <section
+    id="install"
+    class="section"
+  >
+    <div class="wrap">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">
+          Get on the water
+        </span>
+
+        <h2>
+          Install WakeScout
+        </h2>
+
+        <p>
+          WakeScout and Lake Shootout run entirely inside Apple Shortcuts.
+        </p>
+
+      </div>
+
+      <div class="install-grid">
+
+        <div class="install-card primary">
+
+          <h3>
+            🌊 WakeScout
+          </h3>
+
+          <p>
+            Pick a lake and date. WakeScout finds your best 3-hour wake surf window
+            and gives you the conditions that matter.
+          </p>
+
+          <a
+            id="wakescout-install"
+            class="button button-primary"
+            href="#"
+          >
+            Install WakeScout
+          </a>
+
+        </div>
+
+        <div class="install-card">
+
+          <h3>
+            🏆 Lake Shootout
+          </h3>
+
+          <p>
+            Compare multiple Utah lakes head-to-head and let the weather decide
+            which one deserves the boat.
+          </p>
+
+          <a
+            id="shootout-install"
+            class="button button-secondary"
+            href="#"
+          >
+            Install Lake Shootout
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
 
   <section class="section">
-    <h2>Built-in updates</h2>
+    <div class="wrap">
 
-    <p>
-      WakeScout and Lake Shootout automatically check for newer versions when they run.
-      If an update is available, you'll get a notification with the option to install it.
-    </p>
+      <div
+        class="card"
+        style="max-width:820px;margin:0 auto;"
+      >
+
+        <h3>
+          ⚠️ Forecast disclaimer
+        </h3>
+
+        <p style="margin-bottom:0;">
+          WakeScout is a planning tool. Forecasts and estimated water temperatures
+          can be wrong, and conditions can change quickly. Always use your own
+          judgment and follow local weather alerts, boating regulations, and
+          safety guidance.
+        </p>
+
+      </div>
+
+    </div>
   </section>
+
 
   <footer>
-    🌊 WakeScout<br>
-    by <span class="kraken">🐙 SurfKraken</span><br>
-    2026
+
+    🌊 WakeScout
+    <br>
+
+    <strong>
+      Less forecast staring. More glass hunting.
+    </strong>
+
+    <br><br>
+
+    by
+    <span class="kraken">
+      🐙 SurfKraken
+    </span>
+
+    <br><br>
+
+    <a href="https://github.com/surfkraken/WakeScout-Updates">
+      View on GitHub
+    </a>
+
   </footer>
+
+
+  <script>
+
+    const fallbackWakeScout =
+      "https://www.icloud.com/shortcuts/9860a46ff7fc4cdcaddd57dfa63c2cbf";
+
+    const fallbackShootout =
+      "https://www.icloud.com/shortcuts/82d06b49fa3d4ee484ef65d55ad6bab2";
+
+
+    async function loadInstaller(
+      jsonFile,
+      elementIds,
+      fallbackUrl
+    ) {
+
+      let url = fallbackUrl;
+
+      try {
+
+        const response = await fetch(
+          jsonFile + "?t=" + Date.now(),
+          {
+            cache: "no-store"
+          }
+        );
+
+        if (!response.ok) {
+          throw new Error(
+            "Unable to load " + jsonFile
+          );
+        }
+
+        const data = await response.json();
+
+        if (
+          data.url &&
+          data.url.startsWith(
+            "https://www.icloud.com/shortcuts/"
+          )
+        ) {
+          url = data.url;
+        }
+
+      } catch (error) {
+
+        console.warn(error);
+
+      }
+
+      elementIds.forEach(id => {
+
+        const element =
+          document.getElementById(id);
+
+        if (element) {
+          element.href = url;
+        }
+
+      });
+
+    }
+
+
+    loadInstaller(
+      "wakescout.json",
+      [
+        "hero-install",
+        "wakescout-install"
+      ],
+      fallbackWakeScout
+    );
+
+
+    loadInstaller(
+      "lake-shootout.json",
+      [
+        "shootout-install"
+      ],
+      fallbackShootout
+    );
+
+  </script>
 
 </body>
 </html>
