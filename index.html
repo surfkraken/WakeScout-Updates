@@ -99,9 +99,7 @@
 
     .hero-actions {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
-      gap: 12px;
       margin-top: 30px;
     }
 
@@ -115,7 +113,7 @@
       text-decoration: none;
       font-weight: 800;
       font-size: 16px;
-      transition: transform 0.15s ease, opacity 0.15s ease;
+      transition: transform 0.15s ease;
     }
 
     .button:active {
@@ -284,36 +282,6 @@
       margin: 8px 0;
     }
 
-    .install-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 18px;
-    }
-
-    .install-card {
-      display: flex;
-      flex-direction: column;
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      padding: 28px;
-    }
-
-    .install-card.primary {
-      border: 2px solid var(--border-bright);
-    }
-
-    .install-card h3 {
-      margin: 0 0 8px;
-      font-size: 26px;
-    }
-
-    .install-card p {
-      flex: 1;
-      margin: 0 0 22px;
-      color: var(--muted);
-    }
-
     .state-callout {
       max-width: 820px;
       margin: 0 auto;
@@ -335,6 +303,28 @@
       max-width: 520px;
       text-align: left;
       color: var(--muted);
+    }
+
+    .install-card {
+      max-width: 720px;
+      margin: 0 auto;
+      background: var(--panel);
+      border: 2px solid var(--border-bright);
+      border-radius: 24px;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .install-card h3 {
+      margin: 0 0 10px;
+      font-size: 28px;
+    }
+
+    .install-card p {
+      margin: 0 auto 24px;
+      max-width: 580px;
+      color: var(--muted);
+      font-size: 17px;
     }
 
     footer {
@@ -360,17 +350,12 @@
         padding-top: 50px;
       }
 
-      .hero-actions {
-        flex-direction: column;
-      }
-
       .button {
         width: 100%;
       }
 
       .grid-3,
-      .grid-2,
-      .install-grid {
+      .grid-2 {
         grid-template-columns: 1fr;
       }
 
@@ -412,22 +397,12 @@
       </p>
 
       <div class="hero-actions">
-
-        <a
-          id="hero-install"
-          class="button button-primary"
-          href="#"
-        >
-          Install WakeScout
-        </a>
-
         <a
           class="button button-secondary"
           href="#how-it-works"
         >
-          See How It Works
+          See How WakeScout Works
         </a>
-
       </div>
 
       <div class="micro">
@@ -461,54 +436,36 @@
       <div class="grid grid-3">
 
         <div class="card">
+          <div class="card-icon">🌬</div>
 
-          <div class="card-icon">
-            🌬
-          </div>
-
-          <h3>
-            Wind that matters
-          </h3>
+          <h3>Wind that matters</h3>
 
           <p>
             WakeScout looks beyond a single wind number and compares average wind,
             maximum wind, and gusts.
           </p>
-
         </div>
 
         <div class="card">
+          <div class="card-icon">🌦</div>
 
-          <div class="card-icon">
-            🌦
-          </div>
-
-          <h3>
-            Real surf windows
-          </h3>
+          <h3>Real surf windows</h3>
 
           <p>
             Rain and daylight are part of the equation, because calm water at
             midnight isn't particularly useful.
           </p>
-
         </div>
 
         <div class="card">
+          <div class="card-icon">🌡</div>
 
-          <div class="card-icon">
-            🌡
-          </div>
-
-          <h3>
-            Water temperature
-          </h3>
+          <h3>Water temperature</h3>
 
           <p>
             Lake-specific seasonal temperature estimates give you a better idea
             of what you're climbing into.
           </p>
-
         </div>
 
       </div>
@@ -534,8 +491,8 @@
         </h2>
 
         <p>
-          It doesn't just find the lowest hourly wind.
-          WakeScout evaluates every valid 3-hour daylight window,
+          WakeScout doesn't just find the lowest hourly wind.
+          It evaluates every valid 3-hour daylight window,
           moving forward one hour at a time.
         </p>
 
@@ -690,7 +647,7 @@
       <div class="section-heading">
 
         <span class="eyebrow">
-          Companion shortcut
+          Included companion
         </span>
 
         <h2>
@@ -714,9 +671,15 @@
           weather logic and lets the conditions decide where you should surf.
         </p>
 
-        <p style="margin-bottom:0;">
+        <p style="margin-top:16px;">
           WakeScout checks one lake deeply. Lake Shootout puts several lakes
           head-to-head.
+        </p>
+
+        <p style="margin-top:16px;margin-bottom:0;">
+          <strong>There's nothing extra you need to install here.</strong>
+          WakeScout will guide you through installing Lake Shootout when you
+          use that feature.
         </p>
 
       </div>
@@ -869,58 +832,29 @@
         </span>
 
         <h2>
-          Install WakeScout
+          Ready to find better water?
         </h2>
-
-        <p>
-          WakeScout and Lake Shootout run entirely inside Apple Shortcuts.
-        </p>
 
       </div>
 
-      <div class="install-grid">
+      <div class="install-card">
 
-        <div class="install-card primary">
+        <h3>
+          🌊 Install WakeScout
+        </h3>
 
-          <h3>
-            🌊 WakeScout
-          </h3>
+        <p>
+          Install WakeScout once. It will handle Lake Shootout for you
+          when you want to compare multiple lakes.
+        </p>
 
-          <p>
-            Pick a lake and date. WakeScout finds your best 3-hour wake surf window
-            and gives you the conditions that matter.
-          </p>
-
-          <a
-            id="wakescout-install"
-            class="button button-primary"
-            href="#"
-          >
-            Install WakeScout
-          </a>
-
-        </div>
-
-        <div class="install-card">
-
-          <h3>
-            🏆 Lake Shootout
-          </h3>
-
-          <p>
-            Compare multiple Utah lakes head-to-head and let the weather decide
-            which one deserves the boat.
-          </p>
-
-          <a
-            id="shootout-install"
-            class="button button-secondary"
-            href="#"
-          >
-            Install Lake Shootout
-          </a>
-
-        </div>
+        <a
+          id="wakescout-install"
+          class="button button-primary"
+          href="#"
+        >
+          Install WakeScout
+        </a>
 
       </div>
 
@@ -983,22 +917,15 @@
     const fallbackWakeScout =
       "https://www.icloud.com/shortcuts/9860a46ff7fc4cdcaddd57dfa63c2cbf";
 
-    const fallbackShootout =
-      "https://www.icloud.com/shortcuts/82d06b49fa3d4ee484ef65d55ad6bab2";
 
+    async function loadWakeScoutInstaller() {
 
-    async function loadInstaller(
-      jsonFile,
-      elementIds,
-      fallbackUrl
-    ) {
-
-      let url = fallbackUrl;
+      let url = fallbackWakeScout;
 
       try {
 
         const response = await fetch(
-          jsonFile + "?t=" + Date.now(),
+          "wakescout.json?t=" + Date.now(),
           {
             cache: "no-store"
           }
@@ -1006,7 +933,7 @@
 
         if (!response.ok) {
           throw new Error(
-            "Unable to load " + jsonFile
+            "Unable to load wakescout.json"
           );
         }
 
@@ -1027,37 +954,19 @@
 
       }
 
-      elementIds.forEach(id => {
+      const installButton =
+        document.getElementById(
+          "wakescout-install"
+        );
 
-        const element =
-          document.getElementById(id);
-
-        if (element) {
-          element.href = url;
-        }
-
-      });
+      if (installButton) {
+        installButton.href = url;
+      }
 
     }
 
 
-    loadInstaller(
-      "wakescout.json",
-      [
-        "hero-install",
-        "wakescout-install"
-      ],
-      fallbackWakeScout
-    );
-
-
-    loadInstaller(
-      "lake-shootout.json",
-      [
-        "shootout-install"
-      ],
-      fallbackShootout
-    );
+    loadWakeScoutInstaller();
 
   </script>
 
