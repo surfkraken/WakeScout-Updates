@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "delivery": "editorially-reviewed-static-bulletin",
-  "generatedAt": "2026-10-23T21:22:49Z",
+  "generatedAt": "2026-11-09T20:38:00Z",
   "reviews": {
     "pineview": {
       "checkedAt": "2026-10-23T21:22:49Z",
@@ -10,10 +10,10 @@
       "reviewUntil": "2026-10-24T21:22:49Z"
     },
     "lake-powell": {
-      "checkedAt": "2026-10-23T21:22:49Z",
-      "candidateCount": 10,
-      "scope": "Recent local reporting, NPS launch status and dated flood advisories.",
-      "reviewUntil": "2026-10-24T21:22:49Z"
+      "checkedAt": "2026-11-09T20:38:00Z",
+      "candidateCount": 12,
+      "scope": "Recent Lake Powell level reporting and access notices; news bulletin reviewed November 9.",
+      "reviewUntil": "2026-11-11T20:38:00Z"
     },
     "deer-creek": {
       "checkedAt": "2026-10-23T21:22:49Z",
@@ -100,6 +100,29 @@
       "reviewStatus": "verified",
       "reviewedAt": "2026-10-23T21:22:49Z",
       "reviewUntil": "2026-10-24T21:22:49Z"
+    },
+    {
+      "id": "powell-rise-ksl-20261108",
+      "eventId": "powell-autumn-rise-2026",
+      "lakeIds": [
+        "lake-powell"
+      ],
+      "title": "Lake Powell rises more than 20 feet from September low",
+      "publisher": "ksl",
+      "url": "https://www.ksl.com/article/news/us/floods-bring-rare-relief-to-us-southwest-reservoirs-as-lake-powell-rises-20-feet/51644524",
+      "publishedAt": "2026-11-08T09:03:00-07:00",
+      "updatedAt": "2026-11-08T16:30:00-07:00",
+      "summary": "Recent storms raised Lake Powell by more than 20 feet from its September low, but the reservoir remains only a little over one-quarter full. Most boat ramps remain unusable; check current NPS launch conditions before towing.",
+      "category": "Lake Operations",
+      "boatingImpact": "water-level",
+      "topic": "reservoir-rise",
+      "scope": "lake",
+      "applicability": "recent",
+      "impactEvidence": "KSL's Associated Press report documents the water-level rise and widespread unusable launch ramps.",
+      "severity": "notice",
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-11-09T20:38:00Z",
+      "reviewUntil": "2026-11-11T20:38:00Z"
     }
   ]
 }
