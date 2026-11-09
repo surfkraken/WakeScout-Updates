@@ -1,0 +1,301 @@
+lake,month,month_number,min_f,average_f,max_f,data_type,source_url,verification_status
+Bear Lake,January,1,,36,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-bear-lake,existing_wakescout_baseline
+Bear Lake,February,2,,39,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-bear-lake,existing_wakescout_baseline
+Bear Lake,March,3,,43,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-bear-lake,existing_wakescout_baseline
+Bear Lake,April,4,,48,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-bear-lake,existing_wakescout_baseline
+Bear Lake,May,5,,55,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-bear-lake,existing_wakescout_baseline
+Bear Lake,June,6,,64,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-bear-lake,existing_wakescout_baseline
+Bear Lake,July,7,,72,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-bear-lake,existing_wakescout_baseline
+Bear Lake,August,8,,75,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-bear-lake,existing_wakescout_baseline
+Bear Lake,September,9,,71,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-bear-lake,existing_wakescout_baseline
+Bear Lake,October,10,,57,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-bear-lake,existing_wakescout_baseline
+Bear Lake,November,11,,46,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-bear-lake,existing_wakescout_baseline
+Bear Lake,December,12,,35,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-bear-lake,existing_wakescout_baseline
+Deer Creek Reservoir,January,1,,36,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,renamed_to_match_shortcut_menu
+Deer Creek Reservoir,February,2,,39,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,renamed_to_match_shortcut_menu
+Deer Creek Reservoir,March,3,,46,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,renamed_to_match_shortcut_menu
+Deer Creek Reservoir,April,4,,47,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,renamed_to_match_shortcut_menu
+Deer Creek Reservoir,May,5,,58,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,renamed_to_match_shortcut_menu
+Deer Creek Reservoir,June,6,,65,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,renamed_to_match_shortcut_menu
+Deer Creek Reservoir,July,7,,74,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,renamed_to_match_shortcut_menu
+Deer Creek Reservoir,August,8,,74,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,renamed_to_match_shortcut_menu
+Deer Creek Reservoir,September,9,,68,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,renamed_to_match_shortcut_menu
+Deer Creek Reservoir,October,10,,54,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,renamed_to_match_shortcut_menu
+Deer Creek Reservoir,November,11,,45,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,renamed_to_match_shortcut_menu
+Deer Creek Reservoir,December,12,,37,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-deer-creek-reservoir,renamed_to_match_shortcut_menu
+East Canyon Reservoir,January,1,,36,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-east-canyon-reservoir,published_monthly_table
+East Canyon Reservoir,February,2,,40,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-east-canyon-reservoir,published_monthly_table
+East Canyon Reservoir,March,3,,45,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-east-canyon-reservoir,published_monthly_table
+East Canyon Reservoir,April,4,,48,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-east-canyon-reservoir,published_monthly_table
+East Canyon Reservoir,May,5,,57,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-east-canyon-reservoir,published_monthly_table
+East Canyon Reservoir,June,6,,65,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-east-canyon-reservoir,published_monthly_table
+East Canyon Reservoir,July,7,,71,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-east-canyon-reservoir,published_monthly_table
+East Canyon Reservoir,August,8,,74,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-east-canyon-reservoir,published_monthly_table
+East Canyon Reservoir,September,9,,68,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-east-canyon-reservoir,published_monthly_table
+East Canyon Reservoir,October,10,,55,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-east-canyon-reservoir,published_monthly_table
+East Canyon Reservoir,November,11,,45,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-east-canyon-reservoir,published_monthly_table
+East Canyon Reservoir,December,12,,36,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-east-canyon-reservoir,published_monthly_table
+Echo Reservoir,January,1,,36,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,renamed_to_match_shortcut_menu
+Echo Reservoir,February,2,,39,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,renamed_to_match_shortcut_menu
+Echo Reservoir,March,3,,43,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,renamed_to_match_shortcut_menu
+Echo Reservoir,April,4,,44,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,renamed_to_match_shortcut_menu
+Echo Reservoir,May,5,,54,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,renamed_to_match_shortcut_menu
+Echo Reservoir,June,6,,64,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,renamed_to_match_shortcut_menu
+Echo Reservoir,July,7,,72,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,renamed_to_match_shortcut_menu
+Echo Reservoir,August,8,,74,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,renamed_to_match_shortcut_menu
+Echo Reservoir,September,9,,67,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,renamed_to_match_shortcut_menu
+Echo Reservoir,October,10,,55,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,renamed_to_match_shortcut_menu
+Echo Reservoir,November,11,,46,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,renamed_to_match_shortcut_menu
+Echo Reservoir,December,12,,38,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-echo-reservoir,renamed_to_match_shortcut_menu
+Flaming Gorge Reservoir,January,1,,35,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,renamed_to_match_shortcut_menu
+Flaming Gorge Reservoir,February,2,,40,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,renamed_to_match_shortcut_menu
+Flaming Gorge Reservoir,March,3,,44,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,renamed_to_match_shortcut_menu
+Flaming Gorge Reservoir,April,4,,47,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,renamed_to_match_shortcut_menu
+Flaming Gorge Reservoir,May,5,,55,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,renamed_to_match_shortcut_menu
+Flaming Gorge Reservoir,June,6,,63,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,renamed_to_match_shortcut_menu
+Flaming Gorge Reservoir,July,7,,76,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,renamed_to_match_shortcut_menu
+Flaming Gorge Reservoir,August,8,,72,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,renamed_to_match_shortcut_menu
+Flaming Gorge Reservoir,September,9,,68,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,renamed_to_match_shortcut_menu
+Flaming Gorge Reservoir,October,10,,55,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,renamed_to_match_shortcut_menu
+Flaming Gorge Reservoir,November,11,,44,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,renamed_to_match_shortcut_menu
+Flaming Gorge Reservoir,December,12,,36,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-flaming-gorge-reservoir,renamed_to_match_shortcut_menu
+Gunlock Reservoir,January,1,,44,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-gunlock-reservoir,published_monthly_table
+Gunlock Reservoir,February,2,,46,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-gunlock-reservoir,published_monthly_table
+Gunlock Reservoir,March,3,,54,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-gunlock-reservoir,published_monthly_table
+Gunlock Reservoir,April,4,,55,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-gunlock-reservoir,published_monthly_table
+Gunlock Reservoir,May,5,,68,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-gunlock-reservoir,published_monthly_table
+Gunlock Reservoir,June,6,,75,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-gunlock-reservoir,published_monthly_table
+Gunlock Reservoir,July,7,,82,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-gunlock-reservoir,published_monthly_table
+Gunlock Reservoir,August,8,,83,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-gunlock-reservoir,published_monthly_table
+Gunlock Reservoir,September,9,,78,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-gunlock-reservoir,published_monthly_table
+Gunlock Reservoir,October,10,,65,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-gunlock-reservoir,published_monthly_table
+Gunlock Reservoir,November,11,,57,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-gunlock-reservoir,published_monthly_table
+Gunlock Reservoir,December,12,,48,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-gunlock-reservoir,published_monthly_table
+Huntington Reservoir,January,1,,35,,estimated_observed_plus_climatology,https://stateparks.utah.gov/parks/huntington/,proxy_estimate_huntington_north_state_park_not_mammoth
+Huntington Reservoir,February,2,,38,,estimated_observed_plus_climatology,https://stateparks.utah.gov/parks/huntington/,proxy_estimate_huntington_north_state_park_not_mammoth
+Huntington Reservoir,March,3,,43,,estimated_observed_plus_climatology,https://stateparks.utah.gov/parks/huntington/,proxy_estimate_huntington_north_state_park_not_mammoth
+Huntington Reservoir,April,4,,49,,estimated_observed_plus_climatology,https://stateparks.utah.gov/parks/huntington/,proxy_estimate_huntington_north_state_park_not_mammoth
+Huntington Reservoir,May,5,,56,,estimated_observed_plus_climatology,https://stateparks.utah.gov/parks/huntington/,proxy_estimate_huntington_north_state_park_not_mammoth
+Huntington Reservoir,June,6,,64,,estimated_observed_plus_climatology,https://stateparks.utah.gov/parks/huntington/,proxy_estimate_huntington_north_state_park_not_mammoth
+Huntington Reservoir,July,7,,70,,estimated_observed_plus_climatology,https://stateparks.utah.gov/parks/huntington/,proxy_estimate_huntington_north_state_park_not_mammoth
+Huntington Reservoir,August,8,,71,,estimated_observed_plus_climatology,https://stateparks.utah.gov/parks/huntington/,proxy_estimate_huntington_north_state_park_not_mammoth
+Huntington Reservoir,September,9,,68,,estimated_observed_plus_climatology,https://stateparks.utah.gov/parks/huntington/,proxy_estimate_huntington_north_state_park_not_mammoth
+Huntington Reservoir,October,10,,58,,estimated_observed_plus_climatology,https://stateparks.utah.gov/parks/huntington/,proxy_estimate_huntington_north_state_park_not_mammoth
+Huntington Reservoir,November,11,,47,,estimated_observed_plus_climatology,https://stateparks.utah.gov/parks/huntington/,proxy_estimate_huntington_north_state_park_not_mammoth
+Huntington Reservoir,December,12,,38,,estimated_observed_plus_climatology,https://stateparks.utah.gov/parks/huntington/,proxy_estimate_huntington_north_state_park_not_mammoth
+Hyrum Reservoir,January,1,,36,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-hyrum-reservoir,published_monthly_table
+Hyrum Reservoir,February,2,,40,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-hyrum-reservoir,published_monthly_table
+Hyrum Reservoir,March,3,,46,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-hyrum-reservoir,published_monthly_table
+Hyrum Reservoir,April,4,,48,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-hyrum-reservoir,published_monthly_table
+Hyrum Reservoir,May,5,,57,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-hyrum-reservoir,published_monthly_table
+Hyrum Reservoir,June,6,,67,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-hyrum-reservoir,published_monthly_table
+Hyrum Reservoir,July,7,,76,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-hyrum-reservoir,published_monthly_table
+Hyrum Reservoir,August,8,,77,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-hyrum-reservoir,published_monthly_table
+Hyrum Reservoir,September,9,,72,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-hyrum-reservoir,published_monthly_table
+Hyrum Reservoir,October,10,,56,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-hyrum-reservoir,published_monthly_table
+Hyrum Reservoir,November,11,,45,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-hyrum-reservoir,published_monthly_table
+Hyrum Reservoir,December,12,,37,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-hyrum-reservoir,published_monthly_table
+Jordanelle Reservoir,January,1,,36,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,renamed_to_match_shortcut_menu
+Jordanelle Reservoir,February,2,,39,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,renamed_to_match_shortcut_menu
+Jordanelle Reservoir,March,3,,42,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,renamed_to_match_shortcut_menu
+Jordanelle Reservoir,April,4,,42,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,renamed_to_match_shortcut_menu
+Jordanelle Reservoir,May,5,,53,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,renamed_to_match_shortcut_menu
+Jordanelle Reservoir,June,6,,63,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,renamed_to_match_shortcut_menu
+Jordanelle Reservoir,July,7,,71,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,renamed_to_match_shortcut_menu
+Jordanelle Reservoir,August,8,,73,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,renamed_to_match_shortcut_menu
+Jordanelle Reservoir,September,9,,67,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,renamed_to_match_shortcut_menu
+Jordanelle Reservoir,October,10,,55,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,renamed_to_match_shortcut_menu
+Jordanelle Reservoir,November,11,,45,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,renamed_to_match_shortcut_menu
+Jordanelle Reservoir,December,12,,38,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-jordanelle-reservoir,renamed_to_match_shortcut_menu
+Lake Powell,January,1,,43,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-lake-powell,existing_wakescout_baseline
+Lake Powell,February,2,,44,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-lake-powell,existing_wakescout_baseline
+Lake Powell,March,3,,50,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-lake-powell,existing_wakescout_baseline
+Lake Powell,April,4,,57,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-lake-powell,existing_wakescout_baseline
+Lake Powell,May,5,,64,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-lake-powell,existing_wakescout_baseline
+Lake Powell,June,6,,72,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-lake-powell,existing_wakescout_baseline
+Lake Powell,July,7,,79,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-lake-powell,existing_wakescout_baseline
+Lake Powell,August,8,,79,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-lake-powell,existing_wakescout_baseline
+Lake Powell,September,9,,73,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-lake-powell,existing_wakescout_baseline
+Lake Powell,October,10,,63,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-lake-powell,existing_wakescout_baseline
+Lake Powell,November,11,,54,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-lake-powell,existing_wakescout_baseline
+Lake Powell,December,12,,48,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-lake-powell,existing_wakescout_baseline
+Millsite Reservoir,January,1,,36,,estimated_observed_plus_climatology,https://lakemonster.com/lake/Utah/Millsite-Reservoir-53,proxy_estimate_anchored_to_observed_readings
+Millsite Reservoir,February,2,,39,,estimated_observed_plus_climatology,https://lakemonster.com/lake/Utah/Millsite-Reservoir-53,proxy_estimate_anchored_to_observed_readings
+Millsite Reservoir,March,3,,44,,estimated_observed_plus_climatology,https://lakemonster.com/lake/Utah/Millsite-Reservoir-53,proxy_estimate_anchored_to_observed_readings
+Millsite Reservoir,April,4,,50,,estimated_observed_plus_climatology,https://lakemonster.com/lake/Utah/Millsite-Reservoir-53,proxy_estimate_anchored_to_observed_readings
+Millsite Reservoir,May,5,,59,,estimated_observed_plus_climatology,https://lakemonster.com/lake/Utah/Millsite-Reservoir-53,proxy_estimate_anchored_to_observed_readings
+Millsite Reservoir,June,6,,66,,estimated_observed_plus_climatology,https://lakemonster.com/lake/Utah/Millsite-Reservoir-53,proxy_estimate_anchored_to_observed_readings
+Millsite Reservoir,July,7,,70,,estimated_observed_plus_climatology,https://lakemonster.com/lake/Utah/Millsite-Reservoir-53,proxy_estimate_anchored_to_observed_readings
+Millsite Reservoir,August,8,,70,,estimated_observed_plus_climatology,https://lakemonster.com/lake/Utah/Millsite-Reservoir-53,proxy_estimate_anchored_to_observed_readings
+Millsite Reservoir,September,9,,67,,estimated_observed_plus_climatology,https://lakemonster.com/lake/Utah/Millsite-Reservoir-53,proxy_estimate_anchored_to_observed_readings
+Millsite Reservoir,October,10,,57,,estimated_observed_plus_climatology,https://lakemonster.com/lake/Utah/Millsite-Reservoir-53,proxy_estimate_anchored_to_observed_readings
+Millsite Reservoir,November,11,,46,,estimated_observed_plus_climatology,https://lakemonster.com/lake/Utah/Millsite-Reservoir-53,proxy_estimate_anchored_to_observed_readings
+Millsite Reservoir,December,12,,37,,estimated_observed_plus_climatology,https://lakemonster.com/lake/Utah/Millsite-Reservoir-53,proxy_estimate_anchored_to_observed_readings
+Otter Creek Reservoir,January,1,,42,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-otter-creek-reservoir,published_monthly_table
+Otter Creek Reservoir,February,2,,42,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-otter-creek-reservoir,published_monthly_table
+Otter Creek Reservoir,March,3,,46,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-otter-creek-reservoir,published_monthly_table
+Otter Creek Reservoir,April,4,,51,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-otter-creek-reservoir,published_monthly_table
+Otter Creek Reservoir,May,5,,59,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-otter-creek-reservoir,published_monthly_table
+Otter Creek Reservoir,June,6,,69,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-otter-creek-reservoir,published_monthly_table
+Otter Creek Reservoir,July,7,,78,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-otter-creek-reservoir,published_monthly_table
+Otter Creek Reservoir,August,8,,77,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-otter-creek-reservoir,published_monthly_table
+Otter Creek Reservoir,September,9,,71,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-otter-creek-reservoir,published_monthly_table
+Otter Creek Reservoir,October,10,,61,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-otter-creek-reservoir,published_monthly_table
+Otter Creek Reservoir,November,11,,50,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-otter-creek-reservoir,published_monthly_table
+Otter Creek Reservoir,December,12,,42,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-otter-creek-reservoir,published_monthly_table
+Pineview Reservoir,January,1,,37,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,renamed_to_match_shortcut_menu
+Pineview Reservoir,February,2,,40,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,renamed_to_match_shortcut_menu
+Pineview Reservoir,March,3,,48,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,renamed_to_match_shortcut_menu
+Pineview Reservoir,April,4,,49,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,renamed_to_match_shortcut_menu
+Pineview Reservoir,May,5,,57,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,renamed_to_match_shortcut_menu
+Pineview Reservoir,June,6,,69,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,renamed_to_match_shortcut_menu
+Pineview Reservoir,July,7,,75,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,renamed_to_match_shortcut_menu
+Pineview Reservoir,August,8,,75,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,renamed_to_match_shortcut_menu
+Pineview Reservoir,September,9,,71,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,renamed_to_match_shortcut_menu
+Pineview Reservoir,October,10,,56,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,renamed_to_match_shortcut_menu
+Pineview Reservoir,November,11,,46,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,renamed_to_match_shortcut_menu
+Pineview Reservoir,December,12,,37,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-pineview-reservoir,renamed_to_match_shortcut_menu
+Piute Reservoir,January,1,,42,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-piute-reservoir,published_monthly_table
+Piute Reservoir,February,2,,43,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-piute-reservoir,published_monthly_table
+Piute Reservoir,March,3,,46,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-piute-reservoir,published_monthly_table
+Piute Reservoir,April,4,,52,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-piute-reservoir,published_monthly_table
+Piute Reservoir,May,5,,59,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-piute-reservoir,published_monthly_table
+Piute Reservoir,June,6,,70,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-piute-reservoir,published_monthly_table
+Piute Reservoir,July,7,,78,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-piute-reservoir,published_monthly_table
+Piute Reservoir,August,8,,78,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-piute-reservoir,published_monthly_table
+Piute Reservoir,September,9,,71,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-piute-reservoir,published_monthly_table
+Piute Reservoir,October,10,,60,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-piute-reservoir,published_monthly_table
+Piute Reservoir,November,11,,50,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-piute-reservoir,published_monthly_table
+Piute Reservoir,December,12,,42,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-piute-reservoir,published_monthly_table
+Quail Creek Reservoir,January,1,,44,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,renamed_to_match_shortcut_menu
+Quail Creek Reservoir,February,2,,46,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,renamed_to_match_shortcut_menu
+Quail Creek Reservoir,March,3,,57,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,renamed_to_match_shortcut_menu
+Quail Creek Reservoir,April,4,,59,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,renamed_to_match_shortcut_menu
+Quail Creek Reservoir,May,5,,69,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,renamed_to_match_shortcut_menu
+Quail Creek Reservoir,June,6,,76,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,renamed_to_match_shortcut_menu
+Quail Creek Reservoir,July,7,,82,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,renamed_to_match_shortcut_menu
+Quail Creek Reservoir,August,8,,83,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,renamed_to_match_shortcut_menu
+Quail Creek Reservoir,September,9,,78,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,renamed_to_match_shortcut_menu
+Quail Creek Reservoir,October,10,,67,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,renamed_to_match_shortcut_menu
+Quail Creek Reservoir,November,11,,58,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,renamed_to_match_shortcut_menu
+Quail Creek Reservoir,December,12,,47,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-quail-creek-reservoir,renamed_to_match_shortcut_menu
+Red Fleet Reservoir,January,1,,36,,usgs_modeled_historical_average,https://lakebrief.com/lake/red-fleet-reservoir/water,usgs_1980_2020_model
+Red Fleet Reservoir,February,2,,36,,usgs_modeled_historical_average,https://lakebrief.com/lake/red-fleet-reservoir/water,usgs_1980_2020_model
+Red Fleet Reservoir,March,3,,39,,usgs_modeled_historical_average,https://lakebrief.com/lake/red-fleet-reservoir/water,usgs_1980_2020_model
+Red Fleet Reservoir,April,4,,47,,usgs_modeled_historical_average,https://lakebrief.com/lake/red-fleet-reservoir/water,usgs_1980_2020_model
+Red Fleet Reservoir,May,5,,59,,usgs_modeled_historical_average,https://lakebrief.com/lake/red-fleet-reservoir/water,usgs_1980_2020_model
+Red Fleet Reservoir,June,6,,68,,usgs_modeled_historical_average,https://lakebrief.com/lake/red-fleet-reservoir/water,usgs_1980_2020_model
+Red Fleet Reservoir,July,7,,73,,usgs_modeled_historical_average,https://lakebrief.com/lake/red-fleet-reservoir/water,usgs_1980_2020_model
+Red Fleet Reservoir,August,8,,72,,usgs_modeled_historical_average,https://lakebrief.com/lake/red-fleet-reservoir/water,usgs_1980_2020_model
+Red Fleet Reservoir,September,9,,66,,usgs_modeled_historical_average,https://lakebrief.com/lake/red-fleet-reservoir/water,usgs_1980_2020_model
+Red Fleet Reservoir,October,10,,56,,usgs_modeled_historical_average,https://lakebrief.com/lake/red-fleet-reservoir/water,usgs_1980_2020_model
+Red Fleet Reservoir,November,11,,45,,usgs_modeled_historical_average,https://lakebrief.com/lake/red-fleet-reservoir/water,usgs_1980_2020_model
+Red Fleet Reservoir,December,12,,37,,usgs_modeled_historical_average,https://lakebrief.com/lake/red-fleet-reservoir/water,usgs_1980_2020_model
+Rockport Reservoir,January,1,,36,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-rockport-lake,renamed_to_match_shortcut_menu
+Rockport Reservoir,February,2,,39,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-rockport-lake,renamed_to_match_shortcut_menu
+Rockport Reservoir,March,3,,43,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-rockport-lake,renamed_to_match_shortcut_menu
+Rockport Reservoir,April,4,,44,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-rockport-lake,renamed_to_match_shortcut_menu
+Rockport Reservoir,May,5,,53,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-rockport-lake,renamed_to_match_shortcut_menu
+Rockport Reservoir,June,6,,63,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-rockport-lake,renamed_to_match_shortcut_menu
+Rockport Reservoir,July,7,,71,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-rockport-lake,renamed_to_match_shortcut_menu
+Rockport Reservoir,August,8,,73,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-rockport-lake,renamed_to_match_shortcut_menu
+Rockport Reservoir,September,9,,67,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-rockport-lake,renamed_to_match_shortcut_menu
+Rockport Reservoir,October,10,,55,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-rockport-lake,renamed_to_match_shortcut_menu
+Rockport Reservoir,November,11,,45,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-rockport-lake,renamed_to_match_shortcut_menu
+Rockport Reservoir,December,12,,38,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-rockport-lake,renamed_to_match_shortcut_menu
+Sand Hollow Reservoir,January,1,,44,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,renamed_to_match_shortcut_menu
+Sand Hollow Reservoir,February,2,,46,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,renamed_to_match_shortcut_menu
+Sand Hollow Reservoir,March,3,,57,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,renamed_to_match_shortcut_menu
+Sand Hollow Reservoir,April,4,,59,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,renamed_to_match_shortcut_menu
+Sand Hollow Reservoir,May,5,,68,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,renamed_to_match_shortcut_menu
+Sand Hollow Reservoir,June,6,,76,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,renamed_to_match_shortcut_menu
+Sand Hollow Reservoir,July,7,,82,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,renamed_to_match_shortcut_menu
+Sand Hollow Reservoir,August,8,,83,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,renamed_to_match_shortcut_menu
+Sand Hollow Reservoir,September,9,,78,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,renamed_to_match_shortcut_menu
+Sand Hollow Reservoir,October,10,,67,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,renamed_to_match_shortcut_menu
+Sand Hollow Reservoir,November,11,,58,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,renamed_to_match_shortcut_menu
+Sand Hollow Reservoir,December,12,,47,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-sand-hollow-reservoir,renamed_to_match_shortcut_menu
+Scofield Reservoir,January,1,,35,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,renamed_to_match_shortcut_menu
+Scofield Reservoir,February,2,,39,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,renamed_to_match_shortcut_menu
+Scofield Reservoir,March,3,,41,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,renamed_to_match_shortcut_menu
+Scofield Reservoir,April,4,,43,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,renamed_to_match_shortcut_menu
+Scofield Reservoir,May,5,,53,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,renamed_to_match_shortcut_menu
+Scofield Reservoir,June,6,,63,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,renamed_to_match_shortcut_menu
+Scofield Reservoir,July,7,,75,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,renamed_to_match_shortcut_menu
+Scofield Reservoir,August,8,,71,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,renamed_to_match_shortcut_menu
+Scofield Reservoir,September,9,,68,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,renamed_to_match_shortcut_menu
+Scofield Reservoir,October,10,,57,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,renamed_to_match_shortcut_menu
+Scofield Reservoir,November,11,,44,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,renamed_to_match_shortcut_menu
+Scofield Reservoir,December,12,,33,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-scofield-reservoir,renamed_to_match_shortcut_menu
+Starvation Reservoir,January,1,,35,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,renamed_to_match_shortcut_menu
+Starvation Reservoir,February,2,,39,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,renamed_to_match_shortcut_menu
+Starvation Reservoir,March,3,,43,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,renamed_to_match_shortcut_menu
+Starvation Reservoir,April,4,,47,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,renamed_to_match_shortcut_menu
+Starvation Reservoir,May,5,,55,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,renamed_to_match_shortcut_menu
+Starvation Reservoir,June,6,,65,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,renamed_to_match_shortcut_menu
+Starvation Reservoir,July,7,,77,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,renamed_to_match_shortcut_menu
+Starvation Reservoir,August,8,,74,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,renamed_to_match_shortcut_menu
+Starvation Reservoir,September,9,,68,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,renamed_to_match_shortcut_menu
+Starvation Reservoir,October,10,,57,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,renamed_to_match_shortcut_menu
+Starvation Reservoir,November,11,,46,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,renamed_to_match_shortcut_menu
+Starvation Reservoir,December,12,,36,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-starvation-reservoir,renamed_to_match_shortcut_menu
+Steinaker Reservoir,January,1,,35,,usgs_modeled_historical_average,https://lakebrief.com/lake/steinaker-reservoir/water,usgs_1980_2020_model
+Steinaker Reservoir,February,2,,35,,usgs_modeled_historical_average,https://lakebrief.com/lake/steinaker-reservoir/water,usgs_1980_2020_model
+Steinaker Reservoir,March,3,,38,,usgs_modeled_historical_average,https://lakebrief.com/lake/steinaker-reservoir/water,usgs_1980_2020_model
+Steinaker Reservoir,April,4,,46,,usgs_modeled_historical_average,https://lakebrief.com/lake/steinaker-reservoir/water,usgs_1980_2020_model
+Steinaker Reservoir,May,5,,57,,usgs_modeled_historical_average,https://lakebrief.com/lake/steinaker-reservoir/water,usgs_1980_2020_model
+Steinaker Reservoir,June,6,,66,,usgs_modeled_historical_average,https://lakebrief.com/lake/steinaker-reservoir/water,usgs_1980_2020_model
+Steinaker Reservoir,July,7,,72,,usgs_modeled_historical_average,https://lakebrief.com/lake/steinaker-reservoir/water,usgs_1980_2020_model
+Steinaker Reservoir,August,8,,71,,usgs_modeled_historical_average,https://lakebrief.com/lake/steinaker-reservoir/water,usgs_1980_2020_model
+Steinaker Reservoir,September,9,,65,,usgs_modeled_historical_average,https://lakebrief.com/lake/steinaker-reservoir/water,usgs_1980_2020_model
+Steinaker Reservoir,October,10,,55,,usgs_modeled_historical_average,https://lakebrief.com/lake/steinaker-reservoir/water,usgs_1980_2020_model
+Steinaker Reservoir,November,11,,44,,usgs_modeled_historical_average,https://lakebrief.com/lake/steinaker-reservoir/water,usgs_1980_2020_model
+Steinaker Reservoir,December,12,,37,,usgs_modeled_historical_average,https://lakebrief.com/lake/steinaker-reservoir/water,usgs_1980_2020_model
+Strawberry Reservoir,January,1,,36,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,renamed_to_match_shortcut_menu
+Strawberry Reservoir,February,2,,38,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,renamed_to_match_shortcut_menu
+Strawberry Reservoir,March,3,,41,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,renamed_to_match_shortcut_menu
+Strawberry Reservoir,April,4,,46,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,renamed_to_match_shortcut_menu
+Strawberry Reservoir,May,5,,53,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,renamed_to_match_shortcut_menu
+Strawberry Reservoir,June,6,,62,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,renamed_to_match_shortcut_menu
+Strawberry Reservoir,July,7,,70,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,renamed_to_match_shortcut_menu
+Strawberry Reservoir,August,8,,72,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,renamed_to_match_shortcut_menu
+Strawberry Reservoir,September,9,,65,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,renamed_to_match_shortcut_menu
+Strawberry Reservoir,October,10,,53,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,renamed_to_match_shortcut_menu
+Strawberry Reservoir,November,11,,43,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,renamed_to_match_shortcut_menu
+Strawberry Reservoir,December,12,,35,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-strawberry-reservoir,renamed_to_match_shortcut_menu
+Utah Lake,January,1,,36,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-utah-lake,existing_wakescout_baseline
+Utah Lake,February,2,,39,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-utah-lake,existing_wakescout_baseline
+Utah Lake,March,3,,48,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-utah-lake,existing_wakescout_baseline
+Utah Lake,April,4,,50,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-utah-lake,existing_wakescout_baseline
+Utah Lake,May,5,,58,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-utah-lake,existing_wakescout_baseline
+Utah Lake,June,6,,66,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-utah-lake,existing_wakescout_baseline
+Utah Lake,July,7,,76,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-utah-lake,existing_wakescout_baseline
+Utah Lake,August,8,,76,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-utah-lake,existing_wakescout_baseline
+Utah Lake,September,9,,70,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-utah-lake,existing_wakescout_baseline
+Utah Lake,October,10,,55,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-utah-lake,existing_wakescout_baseline
+Utah Lake,November,11,,46,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-utah-lake,existing_wakescout_baseline
+Utah Lake,December,12,,37,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-utah-lake,existing_wakescout_baseline
+Willard Bay,January,1,,37,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,existing_wakescout_baseline
+Willard Bay,February,2,,40,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,existing_wakescout_baseline
+Willard Bay,March,3,,49,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,existing_wakescout_baseline
+Willard Bay,April,4,,50,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,existing_wakescout_baseline
+Willard Bay,May,5,,58,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,existing_wakescout_baseline
+Willard Bay,June,6,,69,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,existing_wakescout_baseline
+Willard Bay,July,7,,75,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,existing_wakescout_baseline
+Willard Bay,August,8,,76,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,existing_wakescout_baseline
+Willard Bay,September,9,,71,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,existing_wakescout_baseline
+Willard Bay,October,10,,56,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,existing_wakescout_baseline
+Willard Bay,November,11,,46,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,existing_wakescout_baseline
+Willard Bay,December,12,,39,,existing_baseline,https://seatemperature.net/lakes/water-temp-in-willard-bay-reservoir,existing_wakescout_baseline
+Yuba Reservoir,January,1,,37,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-sevier-bridge-reservoir,yuba_alias_sevier_bridge_reservoir
+Yuba Reservoir,February,2,,40,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-sevier-bridge-reservoir,yuba_alias_sevier_bridge_reservoir
+Yuba Reservoir,March,3,,49,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-sevier-bridge-reservoir,yuba_alias_sevier_bridge_reservoir
+Yuba Reservoir,April,4,,49,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-sevier-bridge-reservoir,yuba_alias_sevier_bridge_reservoir
+Yuba Reservoir,May,5,,60,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-sevier-bridge-reservoir,yuba_alias_sevier_bridge_reservoir
+Yuba Reservoir,June,6,,67,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-sevier-bridge-reservoir,yuba_alias_sevier_bridge_reservoir
+Yuba Reservoir,July,7,,77,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-sevier-bridge-reservoir,yuba_alias_sevier_bridge_reservoir
+Yuba Reservoir,August,8,,77,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-sevier-bridge-reservoir,yuba_alias_sevier_bridge_reservoir
+Yuba Reservoir,September,9,,71,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-sevier-bridge-reservoir,yuba_alias_sevier_bridge_reservoir
+Yuba Reservoir,October,10,,54,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-sevier-bridge-reservoir,yuba_alias_sevier_bridge_reservoir
+Yuba Reservoir,November,11,,46,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-sevier-bridge-reservoir,yuba_alias_sevier_bridge_reservoir
+Yuba Reservoir,December,12,,38,,third_party_modeled_seasonal_average,https://seatemperature.net/lakes/water-temp-in-sevier-bridge-reservoir,yuba_alias_sevier_bridge_reservoir

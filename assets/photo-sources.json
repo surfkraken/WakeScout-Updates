@@ -1,0 +1,28 @@
+{
+  "license": "Pexels License",
+  "licenseURL": "https://www.pexels.com/license/",
+  "verifiedOn": "2026-10-29",
+  "restrictions": [
+    "No implied endorsement",
+    "No resale of unaltered photos",
+    "No redistribution as stock photography"
+  ],
+  "processing": "Local WebP compression and resizing only. No generated images or generative editing.",
+  "photos": [
+    {
+      "asset": "wakesurf-9502972.webp",
+      "photographer": "Harrison Fitts",
+      "source": "https://www.pexels.com/photo/a-man-riding-a-wave-9502972/"
+    },
+    {
+      "asset": "wakesurf-9955609.webp",
+      "photographer": "Ron Lach",
+      "source": "https://www.pexels.com/photo/woman-wakesurfing-on-lake-surrounded-by-forest-9955609/"
+    },
+    {
+      "asset": "wakesurf-28277582.webp",
+      "photographer": "Brittany Salatino",
+      "source": "https://www.pexels.com/photo/wake-surf-28277582/"
+    }
+  ]
+}

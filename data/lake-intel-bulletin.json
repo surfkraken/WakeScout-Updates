@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "delivery": "editorially-reviewed-static-bulletin",
+  "generatedAt": "2026-10-23T21:22:49Z",
+  "reviews": {
+    "pineview": {
+      "checkedAt": "2026-10-23T21:22:49Z",
+      "candidateCount": 8,
+      "scope": "Local reporting and current pipeline project access notices.",
+      "reviewUntil": "2026-10-24T21:22:49Z"
+    },
+    "lake-powell": {
+      "checkedAt": "2026-10-23T21:22:49Z",
+      "candidateCount": 10,
+      "scope": "Recent local reporting, NPS launch status and dated flood advisories.",
+      "reviewUntil": "2026-10-24T21:22:49Z"
+    },
+    "deer-creek": {
+      "checkedAt": "2026-10-23T21:22:49Z",
+      "candidateCount": 6,
+      "scope": "Park access/service notices and local reporting.",
+      "reviewUntil": "2026-10-24T21:22:49Z"
+    }
+  },
+  "items": [
+    {
+      "id": "pineview-pipeline-kuer-20260915",
+      "eventId": "pineview-pipeline-drawdown-2026",
+      "lakeIds": [
+        "pineview"
+      ],
+      "title": "Pineview Reservoir is almost empty. Draining it turned up some surprises",
+      "publisher": "kuer",
+      "url": "https://www.kuer.org/science-environment/2026-09-15/pineview-reservoir-is-almost-empty-draining-it-turned-up-some-surprises",
+      "publishedAt": "2026-09-15T16:49:00-06:00",
+      "updatedAt": null,
+      "summary": "Pineview was lowered for pipeline replacement. The ongoing construction drawdown affects boating access; confirm launch availability before towing.",
+      "category": "Lake Operations",
+      "boatingImpact": "water-level",
+      "topic": "infrastructure",
+      "scope": "lake",
+      "applicability": "ongoing",
+      "corroborationURL": "https://ogdencitypipeline.com/",
+      "ongoingEvidence": "The project website lists the Pineview crossing as active and schedules reservoir-bed work through February 1, 2027.",
+      "impactEvidence": "KUER describes pipeline work on the exposed reservoir bed; the current project notice describes inaccessible boat ramps.",
+      "severity": "notice",
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-10-23T21:22:49Z",
+      "reviewUntil": "2026-10-24T21:22:49Z"
+    },
+    {
+      "id": "powell-nps-20261023",
+      "eventId": "powell-low-water-ramp-access-2026",
+      "lakeIds": [
+        "lake-powell"
+      ],
+      "title": "Changing Lake Levels",
+      "publisher": "nps",
+      "url": "https://www.nps.gov/glca/learn/changing-lake-levels.htm",
+      "publishedAt": null,
+      "updatedAt": "2026-10-23T00:00:00-06:00",
+      "datePrecision": "day",
+      "summary": "NPS lists multiple launch closures, including Halls Crossing and Hite. Stateline Auxiliary and Bullfrog Primitive remain motorized options; Bullfrog North carries launch-at-your-own-risk guidance.",
+      "category": "Access",
+      "boatingImpact": "launch-access",
+      "topic": "low-water",
+      "scope": "lake",
+      "applicability": "ongoing",
+      "corroborationURL": "https://www.nps.gov/glca/learn/changing-lake-levels.htm",
+      "ongoingEvidence": "Current NPS ramp table was reviewed on October 23, 2026.",
+      "impactEvidence": "NPS gives vessel-specific launch availability and warns that changing shorelines affect ramp usability.",
+      "severity": "closure",
+      "severityEvidence": "NPS marks named ramps closed; this is not a lake-wide closure.",
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-10-23T21:22:49Z",
+      "reviewUntil": "2026-10-24T21:22:49Z"
+    },
+    {
+      "id": "deer-creek-decon-20261025",
+      "eventId": "deer-creek-seasonal-decon-2026",
+      "lakeIds": [
+        "deer-creek"
+      ],
+      "title": "Deer Creek State Park",
+      "publisher": "parks",
+      "url": "https://stateparks.utah.gov/parks/deer-creek/",
+      "publishedAt": null,
+      "updatedAt": null,
+      "summary": "The park says its AIS decontamination station closes for the season October 25, 2026. Plan decontamination arrangements separately from ramp access.",
+      "category": "Lake Operations",
+      "boatingImpact": "operator-requirement",
+      "topic": "decontamination",
+      "scope": "lake",
+      "applicability": "ongoing",
+      "corroborationURL": "https://stateparks.utah.gov/parks/deer-creek/",
+      "ongoingEvidence": "The park currently lists the October 25 seasonal decontamination-station closure.",
+      "impactEvidence": "A seasonal station closure affects post-trip decontamination planning. It is not a lake or ramp closure.",
+      "effectiveAt": "2026-10-25T00:00:00-06:00",
+      "severity": "notice",
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-10-23T21:22:49Z",
+      "reviewUntil": "2026-10-24T21:22:49Z"
+    }
+  ]
+}
