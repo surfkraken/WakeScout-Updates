@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#ffffff"><meta name="description" content="Find your best three-hour daylight wakesurfing window at 25 Utah lakes. Free weather planning from WakeScout."><title>WakeScout | Better water. More wakesurf.</title><link rel="icon" href="assets/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="assets/icon-192.png"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="src/styles.css"></head>
+<body><a class="skip" href="#main">Skip to main content</a>
+<div class="utility-bar"><span>LESS GUESSING. MORE RIDING.</span><span>UTAH WAKESURF FORECASTS</span></div>
+<header class="topbar"><a href="./" class="brand" aria-label="WakeScout home">wakescout<span aria-hidden="true">/</span></a>
+<nav aria-label="Main navigation"><button type="button" data-mode="window" aria-current="page">Forecast One Lake</button><button type="button" data-mode="shootout">Lake Shootout</button><button type="button" data-mode="about">Inside WakeScout</button></nav>
+<details class="state-menu"><summary aria-label="Choose state. Current state: Utah">Utah <span aria-hidden="true">⌄</span></summary><div class="state-options"><p class="eyebrow">YOUR HOME WATER</p><a href="./" aria-current="location"><span>Utah</span><small>25 lakes. Ready to ride.</small></a><div class="state-coming" aria-disabled="true"><span>Idaho</span><small>Coming January 2027</small></div><div class="state-coming" aria-disabled="true"><span>Arizona</span><small>Coming January 2027</small></div></div></details></header>
+<main id="main"><section id="planner">
+<div class="campaign-hero"><div class="hero-copy"><p class="eyebrow">FOR THE EARLY CREW. THE LAST SET. THE GOOD DAYS.</p><h1 id="headline">Better water.<br>More <em>wakesurf.</em></h1><p id="subhead">Find the best 3-hour wakesurf window at your Utah lake. Less time reading the weather. More time riding it.</p><div class="hero-actions"><a class="button button-blue" href="#launch-pad">Scout my session <span aria-hidden="true">↗</span></a><button class="text-link" type="button" data-ui-mode="shootout">Compare the lakes <span aria-hidden="true">→</span></button></div><p class="hero-footnote"><span class="availability-dot" aria-hidden="true"></span> 25 Utah lakes. Free for every session.</p></div>
+<figure class="hero-photo"><picture><img src="assets/wakesurf-9502972.webp" alt="Wakesurfer carving a boat wake in front of sunlit red-rock cliffs" width="1467" height="2200" fetchpriority="high"></picture><figcaption><span>MAKE ROOM FOR<br>ANOTHER SET.</span><span class="photo-index">01 / THE FEELING</span></figcaption><span class="photo-credit">HARRISON FITTS / PEXELS</span></figure></div>
+<div class="fact-rail"><p><strong>25</strong><span>UTAH LAKES TO EXPLORE</span></p><p><strong>3 HR</strong><span>YOUR BEST DAYLIGHT WINDOW</span></p><p><strong>100%</strong><span>FREE. JUST ADD WATER.</span></p></div>
+<section class="launch-pad" id="launch-pad" aria-labelledby="form-title"><div class="launch-heading"><div><p class="eyebrow">THE NEXT GOOD DAY STARTS HERE</p><h2 id="form-title">Plan your session.</h2></div><div class="mode-switch" aria-label="Forecast type"><button type="button" data-ui-mode="window" aria-pressed="true">One lake</button><button type="button" data-ui-mode="shootout" aria-pressed="false">Lake Shootout</button></div></div><div class="planner-panel"><form id="search-form"><div id="single-picker"><label for="lake">Where are you heading?</label><select id="lake" required></select><p class="field-note" id="point-note"></p></div><fieldset id="multi-picker" hidden><legend>Put your lakes head to head</legend><label for="filter" class="sr-only">Filter lakes</label><input type="search" id="filter" placeholder="Search 25 Utah lakes"><div class="selection-actions"><button type="button" id="all">Select all</button><button type="button" id="none">Clear</button><span id="count"></span></div><div id="lake-checks"></div></fieldset><div class="date-field"><label for="date">When are you surfing?</label><input type="date" id="date" required><div class="quickdates"><button type="button" data-day="0">Today</button><button type="button" data-day="1">Tomorrow</button></div><p class="field-note">Today through 10 days ahead.</p></div><div class="submit-field"><button class="primary" id="run" type="submit">Find my window <span aria-hidden="true">→</span></button><p class="free-note">Always free. No account needed.</p></div></form></div><div class="how-mini"><p>Wind. Gusts. Rain. Every full three-hour daylight window.</p><button id="how" type="button">How we find your window <span aria-hidden="true">↗</span></button></div></section>
+<section class="results-area" aria-label="Surf forecast"><div id="status" role="status" aria-live="polite"></div><div id="results"><div class="forecast-placeholder"><span>01 / CHOOSE YOUR LAKE</span><span>02 / PICK YOUR DAY</span><span>03 / FIND YOUR WINDOW</span></div></div></section>
+<div class="campaign-story"><figure><img src="assets/wakesurf-9955609.webp" alt="Woman wakesurfing on a sunlit boat wake on a lake" width="2000" height="1333" loading="lazy"><figcaption>REAL DAYS. REAL WATER. ALL YOURS.</figcaption></figure><div class="story-copy"><p class="eyebrow">LESS FORECAST FATIGUE</p><h2>The right<br>three hours<br><em>change everything.</em></h2><p>You’ve got the boat. You’ve got the crew. We help you find the window worth showing up for.</p><div class="story-detail"><span>01</span><p><strong>See the whole picture.</strong> Average wind, sustained peaks, gusts and rain, together.</p></div><div class="story-detail"><span>02</span><p><strong>Make daylight count.</strong> Every valid three-hour window gets compared, one hour at a time.</p></div><button class="text-link" type="button" data-ui-topic="ranking">Get inside the forecast <span aria-hidden="true">↗</span></button></div></div>
+<section class="lake-collection"><div class="collection-heading"><div><p class="eyebrow">FIND YOUR HOME WATER</p><h2>Your lake.<br><em>Or your next one.</em></h2></div><p>From red-rock sessions to mountain mornings. Forecasts for 25 Utah lakes, ready when you are.</p></div><div class="lake-links"><button type="button" data-ui-lake="pineview"><span>01</span>Pineview Reservoir <i aria-hidden="true">↗</i></button><button type="button" data-ui-lake="jordanelle"><span>02</span>Jordanelle Reservoir <i aria-hidden="true">↗</i></button><button type="button" data-ui-lake="sand-hollow"><span>03</span>Sand Hollow Reservoir <i aria-hidden="true">↗</i></button><button type="button" data-ui-lake="bear-lake"><span>04</span>Bear Lake <i aria-hidden="true">↗</i></button><button type="button" data-ui-lake="lake-powell"><span>05</span>Lake Powell <i aria-hidden="true">↗</i></button><button type="button" data-ui-lake="deer-creek"><span>06</span>Deer Creek Reservoir <i aria-hidden="true">↗</i></button></div><a class="text-link" href="#launch-pad">Explore all 25 lakes <span aria-hidden="true">→</span></a></section>
+<section class="shootout-campaign"><div><p class="eyebrow">MEET LAKE SHOOTOUT</p><h2>Same crew.<br>Different lake.<br><em>Better call.</em></h2><p>Don’t pick a lake and hope. Put your favorites head to head and let the forecast make its case.</p><button type="button" class="button button-white" data-ui-mode="shootout">Build my Lake Shootout <span aria-hidden="true">↗</span></button></div><figure><img src="assets/wakesurf-28277582.webp" alt="Wakesurfer riding freely on the face of a boat wake" width="1467" height="2200" loading="lazy"><figcaption>GO WHERE THE WINDOW TAKES YOU.</figcaption></figure></section>
+<section class="closing-call"><p class="eyebrow">YOUR NEXT SET IS OUT THERE</p><h2>Bring the boat.<br><em>We’ll bring the intel.</em></h2><a class="button button-blue" href="#launch-pad">Find my wakesurf window <span aria-hidden="true">↗</span></a><p>Forecasts help you plan. Local conditions, access and your judgment always come first.</p></section>
+</section><section id="about" hidden class="about"><div class="about-intro"><div><p class="eyebrow">INSIDE WAKESCOUT / BUILT IN UTAH</p><h1>A little intel.<br><em>A better day.</em></h1><p>Better sessions start with better information. Here’s how WakeScout turns the forecast into a plan worth towing for.</p></div><img src="assets/wakesurf-28277582.webp" alt="Wakesurfer carving a boat wake with spray catching the light" width="1467" height="2200" loading="lazy"></div><div class="about-browser" data-about-browser><aside class="about-sidebar"><p class="eyebrow">EXPLORE WAKESCOUT</p><div class="about-tablist" role="tablist" aria-label="About WakeScout" aria-orientation="vertical"><button type="button" id="topic-essentials" role="tab" aria-controls="panel-essentials" aria-selected="true" tabindex="0" data-about-topic="essentials"><span class="topic-number" aria-hidden="true">01</span><span>The essentials</span><span class="topic-arrow" aria-hidden="true">→</span></button><button type="button" id="topic-ranking" role="tab" aria-controls="panel-ranking" aria-selected="false" tabindex="-1" data-about-topic="ranking"><span class="topic-number" aria-hidden="true">02</span><span>How forecasts work</span><span class="topic-arrow" aria-hidden="true">→</span></button><button type="button" id="topic-wind" role="tab" aria-controls="panel-wind" aria-selected="false" tabindex="-1" data-about-topic="wind"><span class="topic-number" aria-hidden="true">03</span><span>Wind & gusts</span><span class="topic-arrow" aria-hidden="true">→</span></button><button type="button" id="topic-temperature" role="tab" aria-controls="panel-temperature" aria-selected="false" tabindex="-1" data-about-topic="temperature"><span class="topic-number" aria-hidden="true">04</span><span>Water temperature</span><span class="topic-arrow" aria-hidden="true">→</span></button><button type="button" id="topic-shootout" role="tab" aria-controls="panel-shootout" aria-selected="false" tabindex="-1" data-about-topic="shootout"><span class="topic-number" aria-hidden="true">05</span><span>Comparing lakes</span><span class="topic-arrow" aria-hidden="true">→</span></button><button type="button" id="topic-privacy" role="tab" aria-controls="panel-privacy" aria-selected="false" tabindex="-1" data-about-topic="privacy"><span class="topic-number" aria-hidden="true">06</span><span>Limits & privacy</span><span class="topic-arrow" aria-hidden="true">→</span></button><button type="button" id="topic-shortcut" role="tab" aria-controls="panel-shortcut" aria-selected="false" tabindex="-1" data-about-topic="shortcut"><span class="topic-number" aria-hidden="true">07</span><span>iPhone Shortcut</span><span class="topic-arrow" aria-hidden="true">→</span></button><button type="button" id="topic-states" role="tab" aria-controls="panel-states" aria-selected="false" tabindex="-1" data-about-topic="states"><span class="topic-number" aria-hidden="true">08</span><span>Beyond Utah</span><span class="topic-arrow" aria-hidden="true">→</span></button></div><p class="about-sidebar-note">The forecast, explained.<br>One topic at a time.</p></aside><div class="about-mobile-topics"><label for="about-topic-select">EXPLORE WAKESCOUT</label><select id="about-topic-select"><option value="essentials">The essentials</option><option value="ranking">How forecasts work</option><option value="wind">Wind & gusts</option><option value="temperature">Water temperature</option><option value="shootout">Comparing lakes</option><option value="privacy">Limits & privacy</option><option value="shortcut">iPhone Shortcut</option><option value="states">Beyond Utah</option></select></div><div class="about-content"><section class="about-topic-panel" id="panel-essentials" role="tabpanel" aria-labelledby="topic-essentials" tabindex="0"><article id="about-overview" class="about-panel about-wide about-overview" tabindex="-1">
+    <div class="wrap">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">
+          Built for wake surfers
+        </span>
+
+        <h2>
+          Stop staring at weather apps.
+        </h2>
+
+        <p>
+          WakeScout turns a pile of forecast data into one useful question:
+          when is the water most likely to be good?
+        </p>
+
+      </div>
+
+      <div class="grid grid-3">
+
+        <div class="card">
+          <div class="card-icon"></div>
+
+          <h3>Wind that matters</h3>
+
+          <p>
+            WakeScout looks beyond a single wind number and compares average wind,
+            maximum wind, and gusts.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"></div>
+
+          <h3>Real surf windows</h3>
+
+          <p>
+            Rain and daylight are part of the equation, because calm water at
+            midnight isn't particularly useful.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"></div>
+
+          <h3>Water temperature</h3>
+
+          <p>
+            Lake-specific seasonal temperature estimates give you a better idea
+            of what you're climbing into.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </article><article id="about-philosophy" class="about-panel" tabindex="-1">
+    <div class="wrap">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">
+          The philosophy
+        </span>
+
+        <h2>
+          Useful beats complicated.
+        </h2>
+
+      </div>
+
+      <div class="grid grid-2">
+
+        <div class="card">
+
+          <h3>
+            What WakeScout does
+          </h3>
+
+          <p>
+            Uses understandable inputs, compares them consistently,
+            avoids fake precision, and turns the result into something useful
+            on the dock.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>
+            What WakeScout doesn't do
+          </h3>
+
+          <p>
+            Pretend it can overpower mountains, canyon winds, thunderstorms,
+            shoreline geography, boat traffic, or Mother Nature.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </article></section><section class="about-topic-panel" id="panel-ranking" role="tabpanel" aria-labelledby="topic-ranking" tabindex="0" hidden><article id="about-ranking" class="about-panel about-wide about-method" tabindex="-1">
+    <div class="wrap"><div class="method-intro">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">
+          Under the hood
+        </span>
+
+        <h2>
+          How WakeScout thinks
+        </h2>
+
+        <p>
+          WakeScout doesn't just find the lowest hourly wind.
+          It evaluates every valid 3-hour daylight window,
+          moving forward one hour at a time.
+        </p>
+
+      </div>
+
+      <div class="window-example">
+
+        <div class="window-row">
+          <strong>6:00–9:00 AM</strong>
+          <span>Evaluate conditions</span>
+        </div>
+
+        <div class="window-row">
+          <strong>7:00–10:00 AM</strong>
+          <span>Evaluate conditions</span>
+        </div>
+
+        <div class="window-row">
+          <strong>8:00–11:00 AM</strong>
+          <span>Evaluate conditions</span>
+        </div>
+
+        <div class="window-row">
+          <strong>9:00 AM–12:00 PM</strong>
+          <span>Keep going through daylight</span>
+        </div>
+
+      </div>
+
+      </div><div class="ranking"><div class="ranking-rules"><h3>How windows are ranked</h3><p>Each candidate contains exactly three consecutive hourly readings, at the start, one hour later and two hours later. The full three-hour window must fit between sunrise and sunset. Sunrise rounds up to the next whole hour when needed.</p><p>If any valid window has maximum rain probability at or below 30%, windows above 30% cannot win. Eligible windows are then ranked by:</p><ol><li>Surf quality</li><li>Average sustained wind</li><li>Maximum sustained wind</li><li>Maximum gust</li><li>Maximum precipitation probability</li><li>Earlier start</li></ol></div><div class="ranking-key"><p>All three limits must be met for each quality label.</p><div class="table-scroll"><table><caption>Wind and gusts in mph; rain is the highest hourly probability in the window.</caption><thead><tr><th>Quality</th><th>Avg wind</th><th>Max gust</th><th>Rain</th></tr></thead><tbody><tr><td>Excellent</td><td>≤6</td><td>≤15</td><td>≤5%</td></tr><tr><td>Good</td><td>≤10</td><td>≤20</td><td>≤15%</td></tr><tr><td>Fair</td><td>≤15</td><td>≤25</td><td>≤30%</td></tr><tr><td>Marginal</td><td colspan="3">Fails one or more Fair limits</td></tr></tbody></table></div><p>These example times illustrate the sliding windows, not a forecast. Today's report considers the full day, including elapsed windows, which are labeled. Temperature never influences rankings.</p></div></div></div></article></section><section class="about-topic-panel" id="panel-wind" role="tabpanel" aria-labelledby="topic-wind" tabindex="0" hidden><article id="about-wind" class="about-panel" tabindex="-1">
+    <div class="wrap">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">
+          The glass problem
+        </span>
+
+        <h2>
+          “5 mph wind” doesn't tell the whole story.
+        </h2>
+
+      </div>
+
+      <div class="grid grid-2">
+
+        <div class="card">
+
+          <h3>
+            Average isn't everything
+          </h3>
+
+          <p>
+            A three-hour window with calm average wind but repeated hard gusts
+            can produce worse water than slightly stronger but steadier wind.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <h3>
+            Best available water
+          </h3>
+
+          <p>
+            WakeScout isn't promising perfect weather. It's trying to identify
+            the best surfable conditions available that day.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </article></section><section class="about-topic-panel" id="panel-temperature" role="tabpanel" aria-labelledby="topic-temperature" tabindex="0" hidden><article id="about-temperature" class="about-panel" tabindex="-1">
+    <div class="wrap">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">
+          Water temperature
+        </span>
+
+        <h2>
+          Useful estimate. No fake precision.
+        </h2>
+
+      </div>
+
+      <div
+        class="card"
+
+      >
+
+        <p>
+          WakeScout provides estimated water temperatures using lake-specific
+          monthly baselines built from historical observations, seasonal patterns,
+          available lake data, and climatological estimates where direct
+          measurements are limited.
+        </p>
+
+        <div class="quote">
+          “About what should the water feel like this time of year?”
+        </div>
+
+        <p>
+          These are not live buoy readings. Actual water temperature can change
+          with weather, depth, inflow, elevation, turnover, and where you are on
+          the lake.
+        </p>
+
+        <p>
+          WakeScout calls them estimates because that is exactly what they are. The web app uses the selected lake’s monthly baseline without interpolation or adjustment for today’s weather. Reports disclose historical, modeled, or proxy provenance. Thirty-six baseline values lack full independent verification and remain explicitly uncertain; they are preserved, not presented as measured observations.
+        </p>
+
+      </div>
+
+    </div>
+  </article></section><section class="about-topic-panel" id="panel-shootout" role="tabpanel" aria-labelledby="topic-shootout" tabindex="0" hidden><article id="about-shootout" class="about-panel" tabindex="-1">
+    <div class="wrap">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">
+          Included companion
+        </span>
+
+        <h2>
+           Lake Shootout
+        </h2>
+
+        <p>
+          Sometimes the question isn't when to go.
+          It's which lake deserves the boat today.
+        </p>
+
+      </div>
+
+      <div
+        class="card"
+
+      >
+
+        <p>
+          Lake Shootout compares multiple Utah lakes using the same WakeScout
+          weather logic and lets the conditions decide where you should surf.
+        </p>
+
+        <p>
+          WakeScout checks one lake deeply. Lake Shootout puts several lakes
+          head-to-head. Lake rankings use the same weather criteria. Driving time is only a lake-ranking tie-breaker when available. This web app has no driving-time data, so weather ties use lake name alphabetically; it never invents travel times.
+        </p>
+
+        <p>
+          <strong>Lake Shootout is included with WakeScout.</strong>
+          Lake Shootout installs automatically with WakeScout and should not be downloaded separately. The web app’s multiple-lake forecast requires no installation.
+        </p>
+
+      </div>
+
+    </div>
+  </article></section><section class="about-topic-panel" id="panel-privacy" role="tabpanel" aria-labelledby="topic-privacy" tabindex="0" hidden><article id="about-disclaimer" class="about-panel about-wide" tabindex="-1">
+    <div class="wrap">
+
+      <div
+        class="card"
+
+      >
+
+        <h3>
+           Forecast disclaimer
+        </h3>
+
+        <p>
+          WakeScout is a planning tool. Forecasts and estimated water temperatures
+          can be wrong, and conditions can change quickly. Always use your own
+          judgment and follow local weather alerts, boating regulations, and
+          safety guidance.
+        </p>
+
+      </div>
+
+    </div>
+  </article><article id="about-privacy" class="about-panel" tabindex="-1"><h2>Forecast locations &amp; your privacy</h2><p>Forecasts use documented park or monitoring points, shown in each report. Conditions vary across large lakes. Weather comes from Open-Meteo; all report times use Utah’s local timezone.</p><p>No accounts, trackers, location collection or backend database. Your last lake is saved only in this browser. Weather requests send the selected forecast coordinates to Open-Meteo.</p><h3>Add the website to your home screen</h3><p>On iPhone, use Safari’s Share menu, then Add to Home Screen. On Android, use your browser’s Install app or Add to home screen menu. Internet is required for forecasts.</p><p><a href="https://github.com/surfkraken/WakeScout-Updates/issues" target="_blank" rel="noopener">Feedback, bugs &amp; ideas ↗</a></p></article></section><section class="about-topic-panel" id="panel-shortcut" role="tabpanel" aria-labelledby="topic-shortcut" tabindex="0" hidden><article id="about-requirements" class="about-panel" tabindex="-1">
+    <div class="wrap">
+
+      <div class="requirements">
+
+        <span class="eyebrow">Another way to scout your session</span>
+        <h2>WakeScout, right in Apple Shortcuts.</h2>
+        <p>We’ve also built WakeScout to run in Apple Shortcuts, Apple’s app for running automated tasks on your iPhone. The WakeScout Shortcut guides you through choosing a lake and a day, then puts together a forecast report to help you find your best wakesurf window.</p>
+        <p>If you already use Shortcuts, it’s a convenient way to plan your next session without opening the website. Lake Shootout is included automatically, so you can also compare lakes without installing a separate companion Shortcut.</p>
+        <h3>What you need</h3>
+        <p>The Shortcut is optional. You can keep using the website in your browser without these Apple requirements. The original Shortcut lists the following requirements:</p><ul>
+          <li>
+            An iPhone running <strong>iOS 27 or newer</strong>
+          </li>
+
+          <li>
+            Apple Shortcuts
+          </li>
+
+          <li>
+            Access to Apple's <strong>Cloud Pro</strong> model
+          </li>
+
+          <li>
+            An internet connection for weather, updates, and temperature data
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </article><article id="about-install" class="about-panel" tabindex="-1">
+    <div class="wrap">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">
+          Get on the water
+        </span>
+
+        <h2>
+          Ready to find better water?
+        </h2>
+
+      </div>
+
+      <div class="install-card">
+
+        <h3>
+           Install WakeScout
+        </h3>
+
+        <p>
+          Install WakeScout once. It will handle Lake Shootout for you
+          when you want to compare multiple lakes.
+        </p>
+
+        <a
+          id="install-wake"
+          class="link-button"
+          target="_blank" rel="noopener"
+        >
+          Install WakeScout
+        </a>
+
+      </div>
+
+    </div>
+  </article></section><section class="about-topic-panel" id="panel-states" role="tabpanel" aria-labelledby="topic-states" tabindex="0" hidden><article id="about-states" class="about-panel" tabindex="-1">
+    <div class="wrap">
+
+      <div class="state-callout">
+
+        <span class="eyebrow">
+          Built in Utah
+        </span>
+
+        <h2>
+          Want WakeScout in your state?
+        </h2>
+
+        <p>
+          Utah is home base, but Utah doesn't own all the good water.
+        </p>
+
+        <p>
+          If you'd like WakeScout expanded to another state,
+          tell me where you surf.
+        </p>
+
+        <div class="state-list">
+
+          <ul>
+            <li>Your state</li>
+            <li>The lakes you regularly surf</li>
+            <li>Any major local lakes that absolutely belong on the list</li>
+          </ul>
+
+        </div>
+
+        <p>
+          Use the <strong>Information & Contact</strong> section inside WakeScout.
+          If enough surfers from an area raise their hands, that's a pretty good
+          map of where WakeScout should explore next.
+        </p>
+
+      </div>
+
+    </div>
+  </article></section></div></div></section>
+</main><footer><div class="footer-main"><a class="footer-brand" href="./">wakescout</a><p>Good water is worth finding.<br>Built in Utah by SurfKraken.</p><button type="button" class="text-link" data-ui-mode="about">Inside WakeScout ↗</button></div><div class="footer-meta"><span>25 lakes. One better plan.</span><a href="https://open-meteo.com/" target="_blank" rel="noopener">Weather by Open-Meteo · CC BY 4.0</a><a href="https://github.com/surfkraken/WakeScout-Updates/issues" target="_blank" rel="noopener">Feedback &amp; ideas ↗</a><details class="photo-credits"><summary>Photography credits</summary><p>Real wakesurf photography, used under the <a href="https://www.pexels.com/license/" target="_blank" rel="noopener">Pexels License</a>. Photography is illustrative; no rider endorsement or specific lake location is implied.</p><a href="https://www.pexels.com/photo/a-man-riding-a-wave-9502972/" target="_blank" rel="noopener">Harrison Fitts</a> · <a href="https://www.pexels.com/photo/woman-wakesurfing-on-lake-surrounded-by-forest-9955609/" target="_blank" rel="noopener">Ron Lach</a> · <a href="https://www.pexels.com/photo/wake-surf-28277582/" target="_blank" rel="noopener">Brittany Salatino</a></details></div></footer><script type="module" src="src/app.js"></script><script type="module" src="src/about.js"></script><script type="module" src="src/site.js"></script></body></html>
