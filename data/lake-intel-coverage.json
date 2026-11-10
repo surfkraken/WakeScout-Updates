@@ -1,6 +1,107 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T20:38:00Z",
+  "generatedAt": "2026-11-10T20:30:03.124325Z",
   "source": "Google News RSS headlines (unverified)",
-  "lakes": {}
-}
+  "lakes": {
+    "bear-lake": {
+      "status": "ok",
+      "items": []
+    },
+    "deer-creek": {
+      "status": "ok",
+      "items": []
+    },
+    "east-canyon": {
+      "status": "ok",
+      "items": []
+    },
+    "echo": {
+      "status": "ok",
+      "items": []
+    },
+    "flaming-gorge": {
+      "status": "ok",
+      "items": []
+    },
+    "gunlock": {
+      "status": "ok",
+      "items": []
+    },
+    "huntington": {
+      "status": "ok",
+      "items": []
+    },
+    "hyrum": {
+      "status": "ok",
+      "items": []
+    },
+    "jordanelle": {
+      "status": "ok",
+      "items": []
+    },
+    "lake-powell": {
+      "status": "ok",
+      "items": []
+    },
+    "millsite": {
+      "status": "ok",
+      "items": []
+    },
+    "otter-creek": {
+      "status": "ok",
+      "items": []
+    },
+    "pineview": {
+      "status": "ok",
+      "items": []
+    },
+    "piute": {
+      "status": "ok",
+      "items": []
+    },
+    "quail-creek": {
+      "status": "ok",
+      "items": []
+    },
+    "red-fleet": {
+      "status": "ok",
+      "items": []
+    },
+    "rockport": {
+      "status": "ok",
+      "items": []
+    },
+    "sand-hollow": {
+      "status": "ok",
+      "items": []
+    },
+    "scofield": {
+      "status": "ok",
+      "items": []
+    },
+    "starvation": {
+      "status": "ok",
+      "items": []
+    },
+    "steinaker": {
+      "status": "ok",
+      "items": []
+    },
+    "strawberry": {
+      "status": "ok",
+      "items": []
+    },
+    "utah-lake": {
+      "status": "ok",
+      "items": []
+    },
+    "willard-bay": {
+      "status": "ok",
+      "items": []
+    },
+    "yuba": {
+      "status": "ok",
+      "items": []
+    }
+  }
+}\n
