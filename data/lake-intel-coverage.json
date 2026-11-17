@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T22:56:28.304818Z",
+  "generatedAt": "2026-11-17T21:50:02.286130Z",
   "source": "Google News RSS headlines (unverified)",
   "lakes": {
     "bear-lake": {
@@ -8,7 +8,7 @@
       "items": []
     },
     "deer-creek": {
-      "status": "unavailable",
+      "status": "ok",
       "items": []
     },
     "east-canyon": {
@@ -28,7 +28,7 @@
       "items": []
     },
     "huntington": {
-      "status": "unavailable",
+      "status": "ok",
       "items": []
     },
     "hyrum": {
@@ -88,11 +88,11 @@
       "items": []
     },
     "strawberry": {
-      "status": "unavailable",
+      "status": "ok",
       "items": []
     },
     "utah-lake": {
-      "status": "unavailable",
+      "status": "ok",
       "items": []
     },
     "willard-bay": {
